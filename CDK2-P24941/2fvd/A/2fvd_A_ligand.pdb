@@ -1,0 +1,73 @@
+EXPDTA    THEORETICAL MODEL, MODELLER 9.22 2021/02/18 06:03:45
+REMARK   6 MODELLER OBJECTIVE FUNCTION:        66.1974
+REMARK   6 MODELLER BEST TEMPLATE % SEQ ID: 100.000
+REMARK   6 GA341 score: 1.00000
+REMARK   6 Normalized DOPE score: -1.41694
+REMARK   6 MODELLER BLK RESIDUE  299:
+HETATM    1  N1  LIA   299       6.006  26.497   6.980  1.00  0.00           N
+HETATM    2  C2  LIA   299       5.228  26.235   5.737  1.00  0.00           C
+HETATM    3  C3  LIA   299       4.425  27.497   5.356  1.00  0.00           C
+HETATM    4  C4  LIA   299       3.474  27.912   6.508  1.00  0.00           C
+HETATM    5  C5  LIA   299       4.263  28.022   7.859  1.00  0.00           C
+HETATM    6  C6  LIA   299       5.084  26.743   8.129  1.00  0.00           C
+HETATM    7  N7  LIA   299       2.853  29.193   6.145  1.00  0.00           N
+HETATM    8  C8  LIA   299       1.769  29.532   6.900  1.00  0.00           C
+HETATM    9  N9  LIA   299       1.069  28.596   7.597  1.00  0.00           N
+HETATM   10  C10 LIA   299       0.049  28.949   8.317  1.00  0.00           C
+HETATM   11  C11 LIA   299      -0.400  30.325   8.422  1.00  0.00           C
+HETATM   12  C12 LIA   299       0.364  31.287   7.659  1.00  0.00           C
+HETATM   13  N13 LIA   299       1.437  30.856   6.914  1.00  0.00           N
+HETATM   14  C14 LIA   299      -1.543  30.655   9.260  1.00  0.00           C
+HETATM   15  O15 LIA   299      -1.970  31.821   9.319  1.00  0.00           O
+HETATM   16  C16 LIA   299      -2.197  29.647  10.064  1.00  0.00           C
+HETATM   17  C17 LIA   299      -3.548  29.259   9.750  1.00  0.00           C
+HETATM   18  C18 LIA   299      -4.212  28.257  10.524  1.00  0.00           C
+HETATM   19  C19 LIA   299      -3.548  27.625  11.616  1.00  0.00           C
+HETATM   20  C20 LIA   299      -2.214  27.992  11.950  1.00  0.00           C
+HETATM   21  C21 LIA   299      -1.510  29.004  11.189  1.00  0.00           C
+HETATM   22  O22 LIA   299      -0.188  29.401  11.490  1.00  0.00           O
+HETATM   23  C23 LIA   299       0.555  28.398  12.227  1.00  0.00           C
+HETATM   24  F24 LIA   299      -4.202  29.825   8.740  1.00  0.00           F
+HETATM   25  F25 LIA   299      -5.450  27.907  10.229  1.00  0.00           F
+HETATM   26  N26 LIA   299       0.083  32.603   7.639  1.00  0.00           N
+HETATM   27  S27 LIA   299       7.063  25.211   7.310  1.00  0.00           S
+HETATM   28  C28 LIA   299       6.179  23.662   7.710  1.00  0.00           C
+HETATM   29  O29 LIA   299       7.871  25.586   8.449  1.00  0.00           O
+HETATM   30  O30 LIA   299       7.911  25.002   6.168  1.00  0.00           O
+HETATM   31  H7  LIA   299       3.201  29.776   5.397  1.00  0.00           H
+HETATM   32 H261 LIA   299       0.565  33.215   6.997  1.00  0.00           H
+HETATM   33 H262 LIA   299      -0.612  32.979   8.268  1.00  0.00           H
+CONECT   10    9   11
+CONECT   11   12   14   10
+CONECT   12   11   13   26
+CONECT   14   11   15   16
+CONECT   16   21   17   14
+CONECT   17   24   18   16
+CONECT   18   19   17   25
+CONECT   19   18   20
+CONECT    2    1    3
+CONECT   20   19   21
+CONECT   21   22   20   16
+CONECT   23   22
+CONECT   28   27
+CONECT    3    2    4
+CONECT    4    3    7    5
+CONECT    5    4    6
+CONECT    6    1    5
+CONECT    8    9    7   13
+CONECT   24   17
+CONECT   25   18
+CONECT   32   26
+CONECT   33   26
+CONECT   31    7
+CONECT    1    2    6   27
+CONECT   13   12    8
+CONECT   26   12   32   33
+CONECT    7    8   31    4
+CONECT    9    8   10
+CONECT   15   14
+CONECT   22   23   21
+CONECT   29   27
+CONECT   30   27
+CONECT   27    1   30   29   28
+END

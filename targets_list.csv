@@ -1,0 +1,20 @@
+Name,Uniprot_ID,ChEMBL_ID,PDB_ID,Chain,Note
+Adenosine receptor2,P29274,CHEMBL251,2ydv,A,
+Adenosine receptor2,P29274,CHEMBL251,5g53,A,
+Adenosine receptor2,P29274,CHEMBL251,5iu7,A,
+Adenosine receptor2,P29274,CHEMBL251,5nm4,A,
+CBR1,P21554,CHEML218,5tgz,A,
+CBR1,P21554,CHEML218,5u09,A,
+CDK2,P24941,,2fvd,A,
+CDK2,P24941,,6guh,A,
+CDK2,P24941,,6inl,A,
+CYP2W1,,,,A,Model was optimized by MD (R- and S-isomer)
+Tubulin,P81947,,4o2b,AB,+ATP and MG
+Tubulin,A0A0R4I993,,5ca1,AB,+ATP and MG
+Tubulin,P81947,,5lyj,AB,+ATP and MG
+Tyrosinase,C7FF05,,5m6b,B,"Full structure of recombinant mushroom tyrosinase (abPPO4), ion atom O in A chain, B chain was choosen by the highest correlation"
+Main Protease,P0DTD1,,5rgz,A,
+Main Protease,P0DTD1,,5rgw,A,
+Main Protease,P0DTD1,,5rh2,A,
+Main Protease,P0DTD1,,5rgx,A,
+MARK4,Q96L34,,5es1,A,"There were missing residues, rotamers. It was built by chimera (location is not in the active center)"

@@ -1,0 +1,55 @@
+EXPDTA    THEORETICAL MODEL, MODELLER 9.22 2021/02/19 03:28:35
+REMARK   6 MODELLER OBJECTIVE FUNCTION:       144.4596
+REMARK   6 MODELLER BEST TEMPLATE % SEQ ID: 100.000
+REMARK   6 GA341 score: 1.00000
+REMARK   6 Normalized DOPE score: -1.21771
+REMARK   6 MODELLER BLK RESIDUE  318:
+HETATM    1  O   HOH   319     -38.199   8.031 -10.175  1.00  0.00           O
+HETATM    2  H1  HOH   319     -38.138   7.825 -11.108  1.00  0.00           H
+HETATM    3  H2  HOH   319     -37.583   7.486  -9.686  1.00  0.00           H
+HETATM    4  O   HOH   320     -58.488 -22.989   0.066  1.00  0.00           O
+HETATM    5  H1  HOH   320     -58.754 -22.292   0.666  1.00  0.00           H
+HETATM    6  H2  HOH   320     -57.781 -23.499   0.462  1.00  0.00           H
+HETATM    7  O   HOH   321     -45.878 -20.127 -13.778  1.00  0.00           O
+HETATM    8  H1  HOH   321     -46.510 -19.514 -13.402  1.00  0.00           H
+HETATM    9  H2  HOH   321     -45.049 -20.062 -13.304  1.00  0.00           H
+HETATM   10  O   HOH   322     -44.559 -35.273  24.996  1.00  0.00           O
+HETATM   11  H1  HOH   322     -43.971 -35.996  24.778  1.00  0.00           H
+HETATM   12  H2  HOH   322     -44.229 -34.815  25.769  1.00  0.00           H
+HETATM   13  O   HOH   323     -49.589 -21.067 -13.503  1.00  0.00           O
+HETATM   14  H1  HOH   323     -50.515 -21.301 -13.434  1.00  0.00           H
+HETATM   15  H2  HOH   323     -49.073 -21.852 -13.688  1.00  0.00           H
+HETATM   16  O   HOH   324     -50.181 -28.312  -9.386  1.00  0.00           O
+HETATM   17  H1  HOH   324     -50.653 -28.597 -10.168  1.00  0.00           H
+HETATM   18  H2  HOH   324     -49.877 -27.412  -9.506  1.00  0.00           H
+HETATM   19  O   HOH   325     -16.550 -11.769  -4.243  1.00  0.00           O
+HETATM   20  H1  HOH   325     -15.969 -12.308  -3.707  1.00  0.00           H
+HETATM   21  H2  HOH   325     -16.545 -10.870  -3.914  1.00  0.00           H
+HETATM   22  O   HOH   326     -26.286 -19.390 -14.478  1.00  1.78           O
+HETATM   23  H1  HOH   326     -26.170 -19.080 -15.376  1.00  0.00           H
+HETATM   24  H2  HOH   326     -25.526 -19.139 -13.953  1.00  0.00           H
+CONECT    2    1
+CONECT    3    1
+CONECT    1    2    3
+CONECT    5    4
+CONECT    6    4
+CONECT    4    5    6
+CONECT    8    7
+CONECT    9    7
+CONECT    7    8    9
+CONECT   11   10
+CONECT   12   10
+CONECT   10   11   12
+CONECT   14   13
+CONECT   15   13
+CONECT   13   14   15
+CONECT   17   16
+CONECT   18   16
+CONECT   16   17   18
+CONECT   20   19
+CONECT   21   19
+CONECT   19   20   21
+CONECT   23   22
+CONECT   24   22
+CONECT   22   24   23
+END

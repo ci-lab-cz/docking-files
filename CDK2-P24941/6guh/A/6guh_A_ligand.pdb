@@ -1,0 +1,63 @@
+EXPDTA    THEORETICAL MODEL, MODELLER 9.22 2021/02/18 06:10:38
+REMARK   6 MODELLER OBJECTIVE FUNCTION:        85.7569
+REMARK   6 MODELLER BEST TEMPLATE % SEQ ID: 100.000
+REMARK   6 GA341 score: 1.00000
+REMARK   6 Normalized DOPE score: -1.54144
+REMARK   6 MODELLER BLK RESIDUE  301:
+REMARK   6 MODELLER BLK RESIDUE  302:
+REMARK   6 MODELLER BLK RESIDUE  303:
+HETATM    1  C4  FB8   301      -1.445  30.256   9.440  1.00  0.00           C
+HETATM    2  C14 FB8   301       3.624  27.012   8.351  1.00  0.00           C
+HETATM    3  C5  FB8   301      -0.449  30.879   8.585  1.00  0.00           C
+HETATM    4  C6  FB8   301      -0.511  32.252   8.344  1.00  0.00           C
+HETATM    5  C11 FB8   301       4.778  27.288   6.278  1.00  0.00           C
+HETATM    6  C7  FB8   301       0.524  32.779   7.598  1.00  0.00           C
+HETATM    7  C8  FB8   301       1.442  30.716   7.273  1.00  0.00           C
+HETATM    8  C9  FB8   301       3.115  28.895   6.937  1.00  0.00           C
+HETATM    9  C10 FB8   301       4.103  28.467   6.063  1.00  0.00           C
+HETATM   10  C12 FB8   301       4.561  26.593   7.440  1.00  0.00           C
+HETATM   11  C13 FB8   301       6.197  24.671   6.230  1.00  0.00           C
+HETATM   12  N1  FB8   301      -3.399  29.829  10.485  1.00  0.00           N
+HETATM   13  N2  FB8   301       1.457  32.034   7.000  1.00  0.00           N
+HETATM   14  C3  FB8   301      -2.723  30.683   9.652  1.00  0.00           C
+HETATM   15  N3  FB8   301       2.472  30.109   6.648  1.00  0.00           N
+HETATM   16  C1  FB8   301      -2.840  27.750  11.736  1.00  0.00           C
+HETATM   17  C2  FB8   301      -2.531  28.891  10.822  1.00  0.00           C
+HETATM   18  S1  FB8   301       5.510  25.145   7.757  1.00  0.00           S
+HETATM   19  O1  FB8   301       6.641  25.576   8.551  1.00  0.00           O
+HETATM   20  O2  FB8   301       4.584  24.169   8.254  1.00  0.00           O
+HETATM   21  C15 FB8   301       2.894  28.154   8.104  1.00  0.00           C
+HETATM   22  N4  FB8   301       0.525  30.108   8.062  1.00  0.00           N
+HETATM   23  N5  FB8   301      -1.318  29.046  10.170  1.00  0.00           N
+HETATM   24  C16 FB8   301      -0.107  28.282  10.334  1.00  0.00           C
+HETATM   25  C17 FB8   301       0.309  28.348  11.824  1.00  0.00           C
+HETATM   26  C18 FB8   301      -0.295  26.926   9.734  1.00  0.00           C
+HETATM   27  HN3 FB8   301       2.838  30.606   5.849  1.00  0.00           H
+CONECT   16   17
+CONECT    9    8    5
+CONECT    5    9   10
+CONECT   10   18    2    5
+CONECT   11   18
+CONECT    2   21   10
+CONECT   21    8    2
+CONECT   24   23   26   25
+CONECT   25   24
+CONECT   26   24
+CONECT   17   23   12   16
+CONECT   14   12    1
+CONECT    1   23    3   14
+CONECT    3   22    4    1
+CONECT    4    3    6
+CONECT    6    4   13
+CONECT    7   22   15   13
+CONECT    8   21    9   15
+CONECT   27   15
+CONECT   12   17   14
+CONECT   13    7    6
+CONECT   15    8   27    7
+CONECT   22    7    3
+CONECT   23    1   17   24
+CONECT   19   18
+CONECT   20   18
+CONECT   18   19   20   10   11
+END
