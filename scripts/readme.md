@@ -1,5 +1,5 @@
-##convert2pdb2pdbqt.pbs
-####script for the preparation of ligands
+## convert2pdb2pdbqt.pbs
+#### script for the preparation of ligands
 __Run__: 
 ```
 qsub ./convert2pdb2pdbqt.pbs -v path=$(pwd)
