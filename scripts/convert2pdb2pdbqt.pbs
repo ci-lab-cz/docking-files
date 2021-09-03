@@ -1,0 +1,17 @@
+#!/bin/bash
+#PBS -l select=1:ncpus=32
+#PBS -k oe
+
+source activate my-rdkit-env
+
+# qsub ./convert2pdb2pdbqt.pbs -v path=$(pwd)
+echo $path
+cd $path
+
+ls *.smi | parallel -j 1 "python ./molchemaxon2pdb.py -i {1} -o {1.} --ncpu 32"
+# ls *.sdf
+# --no_protonation" if you want save added charges
+#--preserve_coord" if you want save original coordinates of atoms
+
+
+find . -name '*.pdb' | parallel -j 800 "test -f {1}'qt' && echo exists || ~/docking/mgltools_x86_64Linux2_1.5.6/bin/pythonsh ~/docking/mgltools_x86_64Linux2_1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py -l {1} -o {1}'qt'"
