@@ -4,10 +4,10 @@ __Run__:
 ```
 qsub ./convert2pdb2pdbqt.pbs -v path=$(pwd)
 ```
-__Input:__ ligand.smi or ligand.sdf  
-To keep things simple, the name should be *ligand* or, if you don't want it, you can make small changes to the script files.  
+__Input:__ *.smi or *.sdf  
+To keep things simple, the name should be *ligand.smi / ligand.sdf* or, if you don't want it, you can make small changes to the script files.  
 
-__Output:__ new folder (folder name is equal to smi/sdf file name) which contains ligand pdbqt files  
+__Output:__ new folder (folder name is equal to smi/sdf file name - default: ./ligand) which contains ligand pdbqt files  
 ## run-vina.pbs
 __Run__: 
 ```
