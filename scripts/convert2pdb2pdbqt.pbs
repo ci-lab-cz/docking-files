@@ -8,9 +8,9 @@ source activate my-rdkit-env
 echo $path
 cd $path
 
-ls ligand.smi | parallel -j 1 "python ./molchemaxon2pdb.py -i {1} -o {1.} --ncpu 32"
+ls ligand.smi | parallel -j 1 "python ~/docking/molchemaxon2pdb.py -i {1} -o {1.} --ncpu 32"
 # ls ligand.sdf
-# --no_protonation" if you want save previously added charges
+# --no_protonation" if you want save previously added charges or you dont want to use Chemaxon
 #--preserve_coord" if you want save original coordinates of atoms
 
 cd ligand

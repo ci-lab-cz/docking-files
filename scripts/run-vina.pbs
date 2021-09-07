@@ -5,4 +5,4 @@
 echo $path
 cd $path
 
-parallel -j 16 'outdir="out_vina";test -d $outdir || mkdir $outdir; echo {1} {2}; ~/bin/vina --receptor {1} --ligand {2} --config ./target/config.txt --seed 120 --exhaustiveness 32 --cpu 4 --out $outdir/{1/.}_{2/.}.pdbqt' ::: ./target/*.pdbqt ::: ligand/*.pdbqt
+parallel -j 16 'outdir="out_vina";test -d $outdir || mkdir $outdir; echo {1} {2}; ~/docking/vina --receptor {1} --ligand {2} --config ./target/config.txt --seed 120 --exhaustiveness 32 --cpu 4 --out $outdir/{1/.}_{2/.}.pdbqt' ::: ./target/*.pdbqt ::: ligand/*.pdbqt
