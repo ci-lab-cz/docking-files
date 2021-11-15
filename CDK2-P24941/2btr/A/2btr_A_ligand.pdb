@@ -1,0 +1,703 @@
+HEADER    TRANSFERASE                             06-JUN-05   2BTR              
+TITLE     STRUCTURE OF CDK2 COMPLEXED WITH PNU-198873                           
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: CELL DIVISION PROTEIN KINASE 2;                            
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 SYNONYM: P33 PROTEIN KINASE;                                         
+COMPND   5 EC: 2.7.1.37;                                                        
+COMPND   6 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
+SOURCE   3 ORGANISM_COMMON: HUMAN;                                              
+SOURCE   4 ORGANISM_TAXID: 9606;                                                
+SOURCE   5 EXPRESSION_SYSTEM: TRICHOPLUSIA NI;                                  
+SOURCE   6 EXPRESSION_SYSTEM_TAXID: 7111;                                       
+SOURCE   7 EXPRESSION_SYSTEM_CELL_LINE: HIGH FIVE;                              
+SOURCE   8 EXPRESSION_SYSTEM_VECTOR_TYPE: BACULOVIRUS                           
+KEYWDS    PROTEIN KINASE, TRANSFERASE, SERINE/THREONINE-PROTEIN 2 KINASE,       
+KEYWDS   2 PHOSPHORYLATION, CELL DIVISION                                       
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    A.VULPETTI,E.CASALE,F.ROLETTO,R.AMICI,M.VILLA,P.PEVARELLO             
+REVDAT   4   03-APR-19 2BTR    1       SOURCE                                   
+REVDAT   3   24-FEB-09 2BTR    1       VERSN                                    
+REVDAT   2   09-MAR-06 2BTR    1       SOURCE JRNL                              
+REVDAT   1   09-NOV-05 2BTR    0                                                
+JRNL        AUTH   A.VULPETTI,E.CASALE,F.ROLETTO,R.AMICI,M.VILLA,P.PEVARELLO    
+JRNL        TITL   STRUCTURE-BASED DRUG DESIGN TO THE DISCOVERY OF NEW          
+JRNL        TITL 2 2-AMINOTHIAZOLE CDK2 INHIBITORS.                             
+JRNL        REF    J.MOL.GRAPH.MODEL.            V.  24   341 2006              
+JRNL        REFN                   ISSN 1093-3263                               
+JRNL        PMID   16260160                                                     
+JRNL        DOI    10.1016/J.JMGM.2005.09.012                                   
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    1.85 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : REFMAC 5.1.24                                        
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
+REMARK   3                                                                      
+REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 1.85                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 20.00                          
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : NULL                           
+REMARK   3   COMPLETENESS FOR RANGE        (%) : 97.5                           
+REMARK   3   NUMBER OF REFLECTIONS             : 22169                          
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT                      
+REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
+REMARK   3   R VALUE     (WORKING + TEST SET) : 0.226                           
+REMARK   3   R VALUE            (WORKING SET) : 0.223                           
+REMARK   3   FREE R VALUE                     : 0.272                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.100                           
+REMARK   3   FREE R VALUE TEST SET COUNT      : 1200                            
+REMARK   3                                                                      
+REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
+REMARK   3   TOTAL NUMBER OF BINS USED           : 20                           
+REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 1.85                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 1.90                         
+REMARK   3   REFLECTION IN BIN     (WORKING SET) : 1606                         
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : NULL                         
+REMARK   3   BIN R VALUE           (WORKING SET) : 0.2340                       
+REMARK   3   BIN FREE R VALUE SET COUNT          : 86                           
+REMARK   3   BIN FREE R VALUE                    : 0.3100                       
+REMARK   3                                                                      
+REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
+REMARK   3   PROTEIN ATOMS            : 2215                                    
+REMARK   3   NUCLEIC ACID ATOMS       : 0                                       
+REMARK   3   HETEROGEN ATOMS          : 18                                      
+REMARK   3   SOLVENT ATOMS            : 67                                      
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : NULL                           
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 27.71                          
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : 0.01000                                              
+REMARK   3    B22 (A**2) : -1.53000                                             
+REMARK   3    B33 (A**2) : 1.52000                                              
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : 0.00000                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
+REMARK   3                                                                      
+REMARK   3  ESTIMATED OVERALL COORDINATE ERROR.                                 
+REMARK   3   ESU BASED ON R VALUE                            (A): 0.179         
+REMARK   3   ESU BASED ON FREE R VALUE                       (A): 0.167         
+REMARK   3   ESU BASED ON MAXIMUM LIKELIHOOD                 (A): 0.106         
+REMARK   3   ESU FOR B VALUES BASED ON MAXIMUM LIKELIHOOD (A**2): 3.374         
+REMARK   3                                                                      
+REMARK   3 CORRELATION COEFFICIENTS.                                            
+REMARK   3   CORRELATION COEFFICIENT FO-FC      : 0.928                         
+REMARK   3   CORRELATION COEFFICIENT FO-FC FREE : 0.891                         
+REMARK   3                                                                      
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES        COUNT    RMS    WEIGHT      
+REMARK   3   BOND LENGTHS REFINED ATOMS        (A):  2289 ; 0.016 ; 0.022       
+REMARK   3   BOND LENGTHS OTHERS               (A):  2142 ; 0.002 ; 0.020       
+REMARK   3   BOND ANGLES REFINED ATOMS   (DEGREES):  3101 ; 1.521 ; 1.976       
+REMARK   3   BOND ANGLES OTHERS          (DEGREES):  4985 ; 0.911 ; 3.000       
+REMARK   3   TORSION ANGLES, PERIOD 1    (DEGREES):   272 ; 6.338 ; 5.000       
+REMARK   3   TORSION ANGLES, PERIOD 2    (DEGREES):  NULL ;  NULL ;  NULL       
+REMARK   3   TORSION ANGLES, PERIOD 3    (DEGREES):  NULL ;  NULL ;  NULL       
+REMARK   3   TORSION ANGLES, PERIOD 4    (DEGREES):  NULL ;  NULL ;  NULL       
+REMARK   3   CHIRAL-CENTER RESTRAINTS       (A**3):   350 ; 0.143 ; 0.200       
+REMARK   3   GENERAL PLANES REFINED ATOMS      (A):  2465 ; 0.008 ; 0.020       
+REMARK   3   GENERAL PLANES OTHERS             (A):   464 ; 0.004 ; 0.020       
+REMARK   3   NON-BONDED CONTACTS REFINED ATOMS (A):   463 ; 0.221 ; 0.200       
+REMARK   3   NON-BONDED CONTACTS OTHERS        (A):  2454 ; 0.242 ; 0.200       
+REMARK   3   NON-BONDED TORSION REFINED ATOMS  (A):  NULL ;  NULL ;  NULL       
+REMARK   3   NON-BONDED TORSION OTHERS         (A):  1342 ; 0.087 ; 0.200       
+REMARK   3   H-BOND (X...Y) REFINED ATOMS      (A):    65 ; 0.125 ; 0.200       
+REMARK   3   H-BOND (X...Y) OTHERS             (A):  NULL ;  NULL ;  NULL       
+REMARK   3   POTENTIAL METAL-ION REFINED ATOMS (A):  NULL ;  NULL ;  NULL       
+REMARK   3   POTENTIAL METAL-ION OTHERS        (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY VDW REFINED ATOMS        (A):    12 ; 0.131 ; 0.200       
+REMARK   3   SYMMETRY VDW OTHERS               (A):    58 ; 0.271 ; 0.200       
+REMARK   3   SYMMETRY H-BOND REFINED ATOMS     (A):     8 ; 0.159 ; 0.200       
+REMARK   3   SYMMETRY H-BOND OTHERS            (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY METAL-ION REFINED ATOMS  (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY METAL-ION OTHERS         (A):  NULL ;  NULL ;  NULL       
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT      
+REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  1375 ; 1.104 ; 1.500       
+REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  2231 ; 1.947 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):   914 ; 2.593 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):   870 ; 4.109 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3                                                                      
+REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
+REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SPHERICITY; FREE ATOMS         (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SPHERICITY; BONDED ATOMS       (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3                                                                      
+REMARK   3  NCS RESTRAINTS STATISTICS                                           
+REMARK   3   NUMBER OF DIFFERENT NCS GROUPS : NULL                              
+REMARK   3                                                                      
+REMARK   3  TLS DETAILS                                                         
+REMARK   3   NUMBER OF TLS GROUPS  : NULL                                       
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELLING.                                             
+REMARK   3   METHOD USED : BABINET MODEL WITH MASK                              
+REMARK   3   PARAMETERS FOR MASK CALCULATION                                    
+REMARK   3   VDW PROBE RADIUS   : 1.40                                          
+REMARK   3   ION PROBE RADIUS   : 0.80                                          
+REMARK   3   SHRINKAGE RADIUS   : 0.80                                          
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE RIDING   
+REMARK   3  POSITIONS.                                                          
+REMARK   4                                                                      
+REMARK   4 2BTR COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
+REMARK 100                                                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 06-JUN-05.                  
+REMARK 100 THE DEPOSITION ID IS D_1290024364.                                   
+REMARK 200                                                                      
+REMARK 200 EXPERIMENTAL DETAILS                                                 
+REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
+REMARK 200  DATE OF DATA COLLECTION        : 23-NOV-98                          
+REMARK 200  TEMPERATURE           (KELVIN) : 100.0                              
+REMARK 200  PH                             : 7.40                               
+REMARK 200  NUMBER OF CRYSTALS USED        : 1                                  
+REMARK 200                                                                      
+REMARK 200  SYNCHROTRON              (Y/N) : Y                                  
+REMARK 200  RADIATION SOURCE               : ELETTRA                            
+REMARK 200  BEAMLINE                       : 5.2R                               
+REMARK 200  X-RAY GENERATOR MODEL          : NULL                               
+REMARK 200  MONOCHROMATIC OR LAUE    (M/L) : M                                  
+REMARK 200  WAVELENGTH OR RANGE        (A) : 1.0                                
+REMARK 200  MONOCHROMATOR                  : NULL                               
+REMARK 200  OPTICS                         : NULL                               
+REMARK 200                                                                      
+REMARK 200  DETECTOR TYPE                  : IMAGE PLATE                        
+REMARK 200  DETECTOR MANUFACTURER          : MARRESEARCH                        
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO                              
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
+REMARK 200                                                                      
+REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 23407                              
+REMARK 200  RESOLUTION RANGE HIGH      (A) : 1.850                              
+REMARK 200  RESOLUTION RANGE LOW       (A) : 20.000                             
+REMARK 200  REJECTION CRITERIA  (SIGMA(I)) : NULL                               
+REMARK 200                                                                      
+REMARK 200 OVERALL.                                                             
+REMARK 200  COMPLETENESS FOR RANGE     (%) : 97.4                               
+REMARK 200  DATA REDUNDANCY                : 3.500                              
+REMARK 200  R MERGE                    (I) : 0.05000                            
+REMARK 200  R SYM                      (I) : NULL                               
+REMARK 200  <I/SIGMA(I)> FOR THE DATA SET  : 12.2000                            
+REMARK 200                                                                      
+REMARK 200 IN THE HIGHEST RESOLUTION SHELL.                                     
+REMARK 200  HIGHEST RESOLUTION SHELL, RANGE HIGH (A) : 1.85                     
+REMARK 200  HIGHEST RESOLUTION SHELL, RANGE LOW  (A) : 2.00                     
+REMARK 200  COMPLETENESS FOR SHELL     (%) : 98.4                               
+REMARK 200  DATA REDUNDANCY IN SHELL       : NULL                               
+REMARK 200  R MERGE FOR SHELL          (I) : 0.21000                            
+REMARK 200  R SYM FOR SHELL            (I) : NULL                               
+REMARK 200  <I/SIGMA(I)> FOR SHELL         : 4.000                              
+REMARK 200                                                                      
+REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH                              
+REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: OTHER                        
+REMARK 200 SOFTWARE USED: NULL                                                  
+REMARK 200 STARTING MODEL: NULL                                                 
+REMARK 200                                                                      
+REMARK 200 REMARK: NULL                                                         
+REMARK 280                                                                      
+REMARK 280 CRYSTAL                                                              
+REMARK 280 SOLVENT CONTENT, VS   (%): 41.48                                     
+REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.12                     
+REMARK 280                                                                      
+REMARK 280 CRYSTALLIZATION CONDITIONS: 10 PERCENT PEG4000,50 MM AMMONIUM        
+REMARK 280  ACETATE, 50 MM HEPES PH 7.4, PH 7.40                                
+REMARK 290                                                                      
+REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
+REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 21 21 21                       
+REMARK 290                                                                      
+REMARK 290      SYMOP   SYMMETRY                                                
+REMARK 290     NNNMMM   OPERATOR                                                
+REMARK 290       1555   X,Y,Z                                                   
+REMARK 290       2555   -X+1/2,-Y,Z+1/2                                         
+REMARK 290       3555   -X,Y+1/2,-Z+1/2                                         
+REMARK 290       4555   X+1/2,-Y+1/2,-Z                                         
+REMARK 290                                                                      
+REMARK 290     WHERE NNN -> OPERATOR NUMBER                                     
+REMARK 290           MMM -> TRANSLATION VECTOR                                  
+REMARK 290                                                                      
+REMARK 290 CRYSTALLOGRAPHIC SYMMETRY TRANSFORMATIONS                            
+REMARK 290 THE FOLLOWING TRANSFORMATIONS OPERATE ON THE ATOM/HETATM             
+REMARK 290 RECORDS IN THIS ENTRY TO PRODUCE CRYSTALLOGRAPHICALLY                
+REMARK 290 RELATED MOLECULES.                                                   
+REMARK 290   SMTRY1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 290   SMTRY2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 290   SMTRY3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 290   SMTRY1   2 -1.000000  0.000000  0.000000       26.60750            
+REMARK 290   SMTRY2   2  0.000000 -1.000000  0.000000        0.00000            
+REMARK 290   SMTRY3   2  0.000000  0.000000  1.000000       35.79400            
+REMARK 290   SMTRY1   3 -1.000000  0.000000  0.000000        0.00000            
+REMARK 290   SMTRY2   3  0.000000  1.000000  0.000000       35.80750            
+REMARK 290   SMTRY3   3  0.000000  0.000000 -1.000000       35.79400            
+REMARK 290   SMTRY1   4  1.000000  0.000000  0.000000       26.60750            
+REMARK 290   SMTRY2   4  0.000000 -1.000000  0.000000       35.80750            
+REMARK 290   SMTRY3   4  0.000000  0.000000 -1.000000        0.00000            
+REMARK 290                                                                      
+REMARK 290 REMARK: NULL                                                         
+REMARK 300                                                                      
+REMARK 300 BIOMOLECULE: 1                                                       
+REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
+REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
+REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
+REMARK 300 BURIED SURFACE AREA.                                                 
+REMARK 350                                                                      
+REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
+REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
+REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
+REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
+REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
+REMARK 350                                                                      
+REMARK 350 BIOMOLECULE: 1                                                       
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: MONOMERIC                         
+REMARK 350 SOFTWARE DETERMINED QUATERNARY STRUCTURE: MONOMERIC                  
+REMARK 350 SOFTWARE USED: PQS                                                   
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A                                     
+REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 465                                                                      
+REMARK 465 MISSING RESIDUES                                                     
+REMARK 465 THE FOLLOWING RESIDUES WERE NOT LOCATED IN THE                       
+REMARK 465 EXPERIMENT. (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
+REMARK 465 IDENTIFIER; SSSEQ=SEQUENCE NUMBER; I=INSERTION CODE.)                
+REMARK 465                                                                      
+REMARK 465   M RES C SSSEQI                                                     
+REMARK 465     ARG A    36                                                      
+REMARK 465     LEU A    37                                                      
+REMARK 465     ASP A    38                                                      
+REMARK 465     THR A    39                                                      
+REMARK 465     GLU A    40                                                      
+REMARK 465     THR A    41                                                      
+REMARK 465     GLU A    42                                                      
+REMARK 465     GLY A    43                                                      
+REMARK 465     VAL A    44                                                      
+REMARK 465     PRO A    45                                                      
+REMARK 465     SER A    46                                                      
+REMARK 465     ARG A   150                                                      
+REMARK 465     ALA A   151                                                      
+REMARK 465     PHE A   152                                                      
+REMARK 465     GLY A   153                                                      
+REMARK 465     VAL A   154                                                      
+REMARK 465     PRO A   155                                                      
+REMARK 465     VAL A   156                                                      
+REMARK 465     ARG A   157                                                      
+REMARK 465     THR A   158                                                      
+REMARK 465     TYR A   159                                                      
+REMARK 465     THR A   160                                                      
+REMARK 465     HIS A   161                                                      
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: TORSION ANGLES                                             
+REMARK 500                                                                      
+REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
+REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
+REMARK 500                                                                      
+REMARK 500 STANDARD TABLE:                                                      
+REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
+REMARK 500                                                                      
+REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-           
+REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI        PSI       PHI                                   
+REMARK 500    LEU A  25      -86.22    -78.87                                   
+REMARK 500    THR A  72      114.01   -176.71                                   
+REMARK 500    GLU A  73       36.79     70.96                                   
+REMARK 500    ASN A  74       12.59     57.19                                   
+REMARK 500    ARG A 126      -22.31     83.11                                   
+REMARK 500    ASP A 145       41.31     71.66                                   
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 800                                                                      
+REMARK 800 SITE                                                                 
+REMARK 800 SITE_IDENTIFIER: AC1                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE U73 A 300                 
+REMARK 900                                                                      
+REMARK 900 RELATED ENTRIES                                                      
+REMARK 900 RELATED ID: 1AQ1   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT KINASE 2 COMPLEXED WITH THE INHIBITOR         
+REMARK 900 STAUROSPORINE                                                        
+REMARK 900 RELATED ID: 1B38   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN-DEPENDENT KINASE 2                                      
+REMARK 900 RELATED ID: 1B39   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN-DEPENDENT KINASE 2 PHOSPHORYLATED ON THR 160            
+REMARK 900 RELATED ID: 1BUH   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF THE HUMAN CDK2 KINASE COMPLEX WITHCELL CYCLE-   
+REMARK 900 REGULATORY PROTEIN CKSHS1                                            
+REMARK 900 RELATED ID: 1CKP   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT KINASE 2 COMPLEXED WITH THE INHIBITOR         
+REMARK 900 PURVALANOL B                                                         
+REMARK 900 RELATED ID: 1DI8   RELATED DB: PDB                                   
+REMARK 900 THE STRUCTURE OF CYCLIN-DEPENDENT KINASE 2 (CDK2) IN COMPLEX WITH 4- 
+REMARK 900 [3- HYDROXYANILINO]-6,7-DIMETHOXYQUINAZOLINE                         
+REMARK 900 RELATED ID: 1DM2   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN-DEPENDENT KINASE 2 COMPLEXED WITH THE INHIBITOR         
+REMARK 900 HYMENIALDISINE                                                       
+REMARK 900 RELATED ID: 1E1V   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT KINASE 2 COMPLEXED WITH THE INHIBITOR NU2058  
+REMARK 900 RELATED ID: 1E1X   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT KINASE 2 COMPLEXED WITH THE INHIBITOR NU6027  
+REMARK 900 RELATED ID: 1E9H   RELATED DB: PDB                                   
+REMARK 900 THR 160 PHOSPHORYLATED CDK2 - HUMAN CYCLIN A3 COMPLEX WITH THE       
+REMARK 900 INHIBITOR INDIRUBIN-5- SULPHONATE BOUND                              
+REMARK 900 RELATED ID: 1F5Q   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF MURINE GAMMA HERPESVIRUS CYCLIN COMPLEXED TO    
+REMARK 900 HUMAN CYCLIN DEPENDANT KINASE 2                                      
+REMARK 900 RELATED ID: 1FIN   RELATED DB: PDB                                   
+REMARK 900 CYCLIN A - CYCLIN-DEPENDENT KINASE 2 COMPLEX                         
+REMARK 900 RELATED ID: 1FQ1   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF KINASE ASSOCIATED PHOSPHATASE (KAP) INCOMPLEX   
+REMARK 900 WITH PHOSPHO-CDK2                                                    
+REMARK 900 RELATED ID: 1FVT   RELATED DB: PDB                                   
+REMARK 900 THE STRUCTURE OF CYCLIN-DEPENDENT KINASE 2 (CDK2) INCOMPLEX WITH AN  
+REMARK 900 OXINDOLE INHIBITOR                                                   
+REMARK 900 RELATED ID: 1FVV   RELATED DB: PDB                                   
+REMARK 900 THE STRUCTURE OF CDK2/CYCLIN A IN COMPLEX WITH AN OXINDOLEINHIBITOR  
+REMARK 900 RELATED ID: 1G5S   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF HUMAN CYCLIN DEPENDENT KINASE 2 (CDK2)IN        
+REMARK 900 COMPLEX WITH THE INHIBITOR H717                                      
+REMARK 900 RELATED ID: 1GIH   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT KINASE 2 COMPLEXED WITH THE CDK4INHIBITOR     
+REMARK 900 RELATED ID: 1GII   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT KINASE 2 COMPLEXED WITH THE CDK4INHIBITOR     
+REMARK 900 RELATED ID: 1GIJ   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT KINASE 2 COMPLEXED WITH THE CDK4INHIBITOR     
+REMARK 900 RELATED ID: 1GY3   RELATED DB: PDB                                   
+REMARK 900 PCDK2/CYCLIN A IN COMPLEX WITH MGADP, NITRATE AND PEPTIDE SUBSTRATE  
+REMARK 900 RELATED ID: 1GZ8   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT KINASE 2 COMPLEXED WITH THE INHIBITOR 2-      
+REMARK 900 AMINO-6-(3'-METHYL- 2'-OXO)BUTOXYPURINE                              
+REMARK 900 RELATED ID: 1H00   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH A DISUBSTITUTED 4, 6 -BIS ANILINO PYRIMIDINE    
+REMARK 900 CDK4 INHIBITOR                                                       
+REMARK 900 RELATED ID: 1H01   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH A DISUBSTITUTED 2, 4 -BIS ANILINO PYRIMIDINE    
+REMARK 900 CDK4 INHIBITOR                                                       
+REMARK 900 RELATED ID: 1H07   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH A DISUBSTITUTED 4, 6 -BIS ANILINO PYRIMIDINE    
+REMARK 900 CDK4 INHIBITOR                                                       
+REMARK 900 RELATED ID: 1H08   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH A DISUBSTITUTED 2, 4 -BIS ANILINO PYRIMIDINE    
+REMARK 900 CDK4 INHIBITOR                                                       
+REMARK 900 RELATED ID: 1H0V   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT PROTEIN KINASE 2 IN COMPLEX WITH THE          
+REMARK 900 INHIBITOR 2-AMINO-6-[(R )-PYRROLIDINO-5'-YL]METHOXYPURINE            
+REMARK 900 RELATED ID: 1H0W   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT PROTEIN KINASE 2 IN COMPLEX WITH THE          
+REMARK 900 INHIBITOR 2-AMINO-6-[ CYCLOHEX-3-ENYL]METHOXYPURINE                  
+REMARK 900 RELATED ID: 1H1P   RELATED DB: PDB                                   
+REMARK 900 STRUCTURE OF HUMAN THR160-PHOSPHO CDK2/ CYCLIN A COMPLEXED WITH THE  
+REMARK 900 INHIBITOR NU2058                                                     
+REMARK 900 RELATED ID: 1H1Q   RELATED DB: PDB                                   
+REMARK 900 STRUCTURE OF HUMAN THR160-PHOSPHO CDK2/ CYCLIN A COMPLEXED WITH THE  
+REMARK 900 INHIBITOR NU6094                                                     
+REMARK 900 RELATED ID: 1H1R   RELATED DB: PDB                                   
+REMARK 900 STRUCTURE OF HUMAN THR160-PHOSPHO CDK2/ CYCLIN A COMPLEXED WITH THE  
+REMARK 900 INHIBITOR NU6086                                                     
+REMARK 900 RELATED ID: 1H1S   RELATED DB: PDB                                   
+REMARK 900 STRUCTURE OF HUMAN THR160-PHOSPHO CDK2/ CYCLIN A COMPLEXED WITH THE  
+REMARK 900 INHIBITOR NU6102                                                     
+REMARK 900 RELATED ID: 1H24   RELATED DB: PDB                                   
+REMARK 900 CDK2/CYCLINA IN COMPLEX WITH A 9 RESIDUE RECRUITMENT PEPTIDE FROM    
+REMARK 900 E2F                                                                  
+REMARK 900 RELATED ID: 1H25   RELATED DB: PDB                                   
+REMARK 900 CDK2/CYCLINA IN COMPLEX WITH AN 11-RESIDUE RECRUITMENT PEPTIDE FROM  
+REMARK 900 E2F                                                                  
+REMARK 900 RELATED ID: 1H26   RELATED DB: PDB                                   
+REMARK 900 CDK2/CYCLINA IN COMPLEX WITH AN 11-RESIDUE RECRUITMENT PEPTIDE FROM  
+REMARK 900 P53                                                                  
+REMARK 900 RELATED ID: 1H27   RELATED DB: PDB                                   
+REMARK 900 CDK2/CYCLINA IN COMPLEX WITH AN 11-RESIDUE RECRUITMENT PEPTIDE FROM  
+REMARK 900 P27                                                                  
+REMARK 900 RELATED ID: 1H28   RELATED DB: PDB                                   
+REMARK 900 CDK2/CYCLINA IN COMPLEX WITH AN 11-RESIDUE RECRUITMENT PEPTIDE FROM  
+REMARK 900 P107                                                                 
+REMARK 900 RELATED ID: 1HCK   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN-DEPENDENT KINASE 2                                      
+REMARK 900 RELATED ID: 1HCL   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN-DEPENDENT KINASE 2                                      
+REMARK 900 RELATED ID: 1JST   RELATED DB: PDB                                   
+REMARK 900 PHOSPHORYLATED CYCLIN-DEPENDENT KINASE-2 BOUND TO CYCLIN A           
+REMARK 900 RELATED ID: 1JSU   RELATED DB: PDB                                   
+REMARK 900 P27(KIP1)/CYCLIN A/CDK2 COMPLEX                                      
+REMARK 900 RELATED ID: 1JSV   RELATED DB: PDB                                   
+REMARK 900 THE STRUCTURE OF CYCLIN-DEPENDENT KINASE 2 (CDK2) INCOMPLEX WITH 4-  
+REMARK 900 [(6-AMINO-4- PYRIMIDINYL)AMINO]BENZENESULFONAMIDE                    
+REMARK 900 RELATED ID: 1JVP   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF HUMAN CDK2 ( UNPHOSPHORYLATED) INCOMPLEX WITH   
+REMARK 900 PKF049-365                                                           
+REMARK 900 RELATED ID: 1KE5   RELATED DB: PDB                                   
+REMARK 900 CDK2 COMPLEXED WITH N-METHYL-4-{[(2-OXO- 1,2-DIHYDRO-3H-INDOL-3-     
+REMARK 900 YLIDENE)METHYL] AMINO}BENZENESULFONAMIDE                             
+REMARK 900 RELATED ID: 1KE6   RELATED DB: PDB                                   
+REMARK 900 CYCLIN-DEPENDENT KINASE 2 (CDK2) COMPLEXED WITH N-METHYL-{4-[2-(7-   
+REMARK 900 OXO-6,7-DIHYDRO -8H-[1,3]THIAZOLO[5,4-E]INDOL-8- YLIDENE)HYDRAZINO]  
+REMARK 900 PHENYL}METHANESULFONAMIDE                                            
+REMARK 900 RELATED ID: 1KE7   RELATED DB: PDB                                   
+REMARK 900 CYCLIN-DEPENDENT KINASE 2 (CDK2) COMPLEXED WITH 3-{[(2,2-DIOXIDO-1,  
+REMARK 900 3-DIHYDRO-2- BENZOTHIEN-5-YL)AMINO]METHYLENE}-5-(1,3- OXAZOL-5-YL)-  
+REMARK 900 1,3-DIHYDRO-2H-INDOL-2- ONE                                          
+REMARK 900 RELATED ID: 1KE8   RELATED DB: PDB                                   
+REMARK 900 CYCLIN-DEPENDENT KINASE 2 (CDK2) COMPLEXED WITH 4-{[(2-OXO-1,2-      
+REMARK 900 DIHYDRO-3H-INDOL-3 -YLIDENE)METHYL]AMINO}-N-(1,3-THIAZOL-2- YL)      
+REMARK 900 BENZENESULFONAMIDE                                                   
+REMARK 900 RELATED ID: 1KE9   RELATED DB: PDB                                   
+REMARK 900 CYCLIN-DEPENDENT KINASE 2 (CDK2) COMPLEXED WITH 3-{[4-({             
+REMARK 900 [AMINO(IMINO)METHYL] AMINOSULFONYL)ANILINO]METHYLENE}-2-OXO-2,3-     
+REMARK 900 DIHYDRO-1H-INDOLE                                                    
+REMARK 900 RELATED ID: 1OGU   RELATED DB: PDB                                   
+REMARK 900 STRUCTURE OF HUMAN THR160-PHOSPHO CDK2/ CYCLIN A COMPLEXED WITH A 2- 
+REMARK 900 ARYLAMINO-4- CYCLOHEXYLMETHYL-5-NITROSO-6-AMINOPYRIMIDINE INHIBITOR  
+REMARK 900 RELATED ID: 1OI9   RELATED DB: PDB                                   
+REMARK 900 STRUCTURE OF HUMAN THR160-PHOSPHO CDK2/ CYCLIN A COMPLEXED WITH A 6- 
+REMARK 900 CYCLOHEXYLMETHYLOXY-2-ANILINO-PURINE INHIBITOR                       
+REMARK 900 RELATED ID: 1OIQ   RELATED DB: PDB                                   
+REMARK 900 IMIDAZOPYRIDINES: A POTENT AND SELECTIVE CLASS OF CYCLIN-DEPENDENT   
+REMARK 900 KINASE INHIBITORS IDENTIFIED THROUGH STRUCTURE-BASED HYBRIDISATION   
+REMARK 900 RELATED ID: 1OIR   RELATED DB: PDB                                   
+REMARK 900 IMIDAZOPYRIDINES: A POTENT AND SELECTIVE CLASS OF CYCLIN-DEPENDENT   
+REMARK 900 KINASE INHIBITORS IDENTIFIED THROUGH STRUCTURE-BASED HYBRIDISATION   
+REMARK 900 RELATED ID: 1OIT   RELATED DB: PDB                                   
+REMARK 900 IMIDAZOPYRIDINES: A POTENT AND SELECTIVE CLASS OF CYCLIN-DEPENDENT   
+REMARK 900 KINASE INHIBITORS IDENTIFIED THROUGH STRUCTURE-BASED HYBRIDISATION   
+REMARK 900 RELATED ID: 1OIU   RELATED DB: PDB                                   
+REMARK 900 STRUCTURE OF HUMAN THR160-PHOSPHO CDK2/ CYCLIN A COMPLEXED WITH A 6- 
+REMARK 900 CYCLOHEXYLMETHYLOXY-2-ANILINO-PURINE INHIBITOR                       
+REMARK 900 RELATED ID: 1OIY   RELATED DB: PDB                                   
+REMARK 900 STRUCTURE OF HUMAN THR160-PHOSPHO CDK2/ CYCLIN A COMPLEXED WITH A 6- 
+REMARK 900 CYCLOHEXYLMETHYLOXY-2-ANILINO-PURINE INHIBITOR                       
+REMARK 900 RELATED ID: 1OKU   RELATED DB: PDB                                   
+REMARK 900 CYCLIN A BINDING GROOVE INHIBITOR H-ALA- ALA-ABU-ARG-ER-LEU-ILE-(P-  
+REMARK 900 F-PHE)-NH2                                                           
+REMARK 900 RELATED ID: 1OKV   RELATED DB: PDB                                   
+REMARK 900 CYCLIN A BINDING GROOVE INHIBITOR H-ARG- ARG-LEU-ILE-PHE-NH2         
+REMARK 900 RELATED ID: 1OKW   RELATED DB: PDB                                   
+REMARK 900 CYCLIN A BINDING GROOVE INHIBITOR AC-ARG- ARG-LEU-ASN-(M-CL-PHE)-NH2 
+REMARK 900 RELATED ID: 1OL1   RELATED DB: PDB                                   
+REMARK 900 CYCLIN A BINDING GROOVE INHIBITOR H-CIT- CIT-LEU-ILE-(P-F-PHE)-NH2   
+REMARK 900 RELATED ID: 1OL2   RELATED DB: PDB                                   
+REMARK 900 CYCLIN A BINDING GROOVE INHIBITOR H-ARG- ARG-LEU-ASN-(P-F-PHE)-NH2   
+REMARK 900 RELATED ID: 1P2A   RELATED DB: PDB                                   
+REMARK 900 THE STRUCTURE OF CYCLIN DEPENDENT KINASE 2 (CKD2) WITH               
+REMARK 900 ATRISUBSTITUTED NAPHTHOSTYRIL INHIBITOR                              
+REMARK 900 RELATED ID: 1P5E   RELATED DB: PDB                                   
+REMARK 900 THE STRUCURE OF PHOSPHO-CDK2/CYCLIN A IN COMPLEX WITH THEINHIBITOR   
+REMARK 900 4,5,6,7- TETRABROMOBENZOTRIAZOLE (TBS)                               
+REMARK 900 RELATED ID: 1PF8   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF HUMAN CYCLIN-DEPENDENT KINASE 2COMPLEXED WITH   
+REMARK 900 A NUCLEOSIDE INHIBITOR                                               
+REMARK 900 RELATED ID: 1PKD   RELATED DB: PDB                                   
+REMARK 900 THE CRYSTAL STRUCTURE OF UCN-01 IN COMPLEX WITH PHOSPHO-CDK2/CYCLIN  
+REMARK 900 A                                                                    
+REMARK 900 RELATED ID: 1PW2   RELATED DB: PDB                                   
+REMARK 900 APO STRUCTURE OF HUMAN CYCLIN-DEPENDENT KINASE 2                     
+REMARK 900 RELATED ID: 1PXI   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT KINASE 2 COMPLEXED WITH THEINHIBITOR 4-(2,5-  
+REMARK 900 DICHLORO-THIOPHEN- 3-YL)-PYRIMIDIN-2-YLAMINE                         
+REMARK 900 RELATED ID: 1PXJ   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT KINASE 2 COMPLEXED WITH THEINHIBITOR 4-(2,4-  
+REMARK 900 DIMETHYL-THIAZOL- 5-YL)-PYRIMIDIN-2-YLAMINE                          
+REMARK 900 RELATED ID: 1PXK   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT KINASE 2 COMPLEXED WITH THEINHIBITOR N-[4-(2, 
+REMARK 900 4-DIMETHYL- THIAZOL-5-YL)PYRIMIDIN-2-YL]-N'- HYDROXYIMINOFORMAMIDE   
+REMARK 900 RELATED ID: 1PXL   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT KINASE 2 COMPLEXED WITH THEINHIBITOR [4-(2,4- 
+REMARK 900 DIMETHYL-THIAZOL- 5-YL)-PYRIMIDIN-2-YL]-(4-TRIFLUOROMETHYL- PHENYL)- 
+REMARK 900 AMINE                                                                
+REMARK 900 RELATED ID: 1PXM   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT KINASE 2 COMPLEXED WITH THEINHIBITOR 3-[4-(2, 
+REMARK 900 4-DIMETHYL- THIAZOL-5-YL)-PYRIMIDIN-2-YLAMINO]-PHENOL                
+REMARK 900 RELATED ID: 1PXN   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT KINASE 2 COMPLEXED WITH THEINHIBITOR 4-[4-(4- 
+REMARK 900 METHYL-2- METHYLAMINO-THIAZOL-5-YL)-PYRIMIDIN-2- YLAMINO]-PHENOL     
+REMARK 900 RELATED ID: 1PXO   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT KINASE 2 COMPLEXED WITH THEINHIBITOR [4-(2-   
+REMARK 900 AMINO-4-METHYL- THIAZOL-5-YL)-PYRIMIDIN-2-YL]-(3-NITRO- PHENYL)-     
+REMARK 900 AMINE                                                                
+REMARK 900 RELATED ID: 1PXP   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT KINASE 2 COMPLEXED WITH THEINHIBITOR N-[4-(2, 
+REMARK 900 4-DIMETHYL- THIAZOL-5-YL)-PYRIMIDIN-2-YL]-N',N'- DIMETHYL-BENZENE-1, 
+REMARK 900 4-DIAMINE                                                            
+REMARK 900 RELATED ID: 1PYE   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF CDK2 WITH INHIBITOR                             
+REMARK 900 RELATED ID: 1QMZ   RELATED DB: PDB                                   
+REMARK 900 PHOSPHORYLATED CDK2-CYCLYIN A-SUBSTRATE PEPTIDE COMPLEX              
+REMARK 900 RELATED ID: 1R78   RELATED DB: PDB                                   
+REMARK 900 CDK2 COMPLEX WITH A 4-ALKYNYL OXINDOLE INHIBITOR                     
+REMARK 900 RELATED ID: 1URC   RELATED DB: PDB                                   
+REMARK 900 CYCLIN A BINDING GROOVE INHIBITOR H-ARG- ARG-LEU-ASN-(P-F-PHE)-NH2   
+REMARK 900 RELATED ID: 1URW   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH AN IMIDAZO[1,2-B] PYRIDAZINE                    
+REMARK 900 RELATED ID: 1V1K   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH A DISUBSTITUTED 4, 6 -BIS ANILINO PYRIMIDINE    
+REMARK 900 CDK4 INHIBITOR                                                       
+REMARK 900 RELATED ID: 1VYW   RELATED DB: PDB                                   
+REMARK 900 STRUCTURE OF CDK2/CYCLIN A WITH PNU-292137                           
+REMARK 900 RELATED ID: 1VYZ   RELATED DB: PDB                                   
+REMARK 900 STRUCTURE OF CDK2 COMPLEXED WITH PNU-181227                          
+REMARK 900 RELATED ID: 1W0X   RELATED DB: PDB                                   
+REMARK 900 CRYSTALS STRUCTURE OF HUMAN CDK2 IN COMPLEX WITH THE INHIBITOR       
+REMARK 900 OLOMOUCINE.                                                          
+REMARK 900 RELATED ID: 1W8C   RELATED DB: PDB                                   
+REMARK 900 CO-CRYSTAL STRUCTURE OF 6-CYCLOHEXYLMETHOXY- 8-ISOPROPYL-9H-PURIN-2- 
+REMARK 900 YLAMINE AND MONOMERIC CDK2                                           
+REMARK 900 RELATED ID: 1W98   RELATED DB: PDB                                   
+REMARK 900 THE STRUCTURAL BASIS OF CDK2 ACTIVATION BY CYCLIN E                  
+REMARK 900 RELATED ID: 1WCC   RELATED DB: PDB                                   
+REMARK 900 SCREENING FOR FRAGMENT BINDING BY X-RAY CRYSTALLOGRAPHY              
+REMARK 900 RELATED ID: 1Y8Y   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF HUMAN CDK2 COMPLEXED WITH A PYRAZOLO[1,5-A]     
+REMARK 900 PYRIMIDINE INHIBITOR                                                 
+REMARK 900 RELATED ID: 1Y91   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF HUMAN CDK2 COMPLEXED WITH A PYRAZOLO[1,5-A]     
+REMARK 900 PYRIMIDINE INHIBITOR                                                 
+REMARK 900 RELATED ID: 2B52   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT KINASE 2 (CDK2) COMPLEXED WITH DPH-042562     
+REMARK 900 RELATED ID: 2B53   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT KINASE 2 (CDK2) COMPLEXED WITH DIN-234325     
+REMARK 900 RELATED ID: 2B54   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT KINASE 2 (CKD2) COMPLEXED WITH DIN-232305     
+REMARK 900 RELATED ID: 2B55   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT KINASE 2 (CDK2) COMPLEXED WITHINDENOPYRAXOLE  
+REMARK 900 DIN-101312                                                           
+REMARK 900 RELATED ID: 2BHE   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT PROTEIN KINASE 2 IN COMPLEX WITH THE          
+REMARK 900 INHIBITOR 5-BROMO- INDIRUBINE                                        
+REMARK 900 RELATED ID: 2BHH   RELATED DB: PDB                                   
+REMARK 900 HUMAN CYCLIN DEPENDENT PROTEIN KINASE 2 IN COMPLEX WITH THE          
+REMARK 900 INHIBITOR 4- HYDROXYPIPERINDINESULFONYL-INDIRUBINE                   
+REMARK 900 RELATED ID: 2BKZ   RELATED DB: PDB                                   
+REMARK 900 STRUCTURE OF CDK2-CYCLIN A WITH PHA-404611                           
+REMARK 900 RELATED ID: 2BPM   RELATED DB: PDB                                   
+REMARK 900 STRUCTURE OF CDK2-CYCLIN A WITH PHA-630529                           
+REMARK 900 RELATED ID: 2BTS   RELATED DB: PDB                                   
+REMARK 900 STRUCTURE OF CDK2 COMPLEXED WITH PNU-230032                          
+REMARK 900 RELATED ID: 2C4G   RELATED DB: PDB                                   
+REMARK 900 STRUCTURE OF CDK2-CYCLIN A WITH PHA-533514                           
+REMARK 900 RELATED ID: 2C5N   RELATED DB: PDB                                   
+REMARK 900 DIFFERENTIAL BINDING OF INHIBITORS TO ACTIVE AND INACTIVE CDK2       
+REMARK 900 PROVIDES INSIGHTS FOR DRUG DESIGN                                    
+REMARK 900 RELATED ID: 2C5O   RELATED DB: PDB                                   
+REMARK 900 DIFFERENTIAL BINDING OF INHIBITORS TO ACTIVE AND INACTIVE CDK2       
+REMARK 900 PROVIDES INSIGHTS FOR DRUG DESIGN                                    
+REMARK 900 RELATED ID: 2C5P   RELATED DB: PDB                                   
+REMARK 900 DIFFERENTIAL BINDING OF INHIBITORS TO ACTIVE AND INACTIVE CDK2       
+REMARK 900 PROVIDES INSIGHTS FOR DRUG DESIGN                                    
+REMARK 900 RELATED ID: 2C5T   RELATED DB: PDB                                   
+REMARK 900 DIFFERENTIAL BINDING OF INHIBITORS TO ACTIVE AND INACTIVE CDK2       
+REMARK 900 PROVIDES INSIGHTS FOR DRUG DESIGN                                    
+REMARK 900 RELATED ID: 2C5X   RELATED DB: PDB                                   
+REMARK 900 DIFFERENTIAL BINDING OF INHIBITORS TO ACTIVE AND INACTIVE CDK2       
+REMARK 900 PROVIDES INSIGHTS FOR DRUG DESIGN                                    
+REMARK 900 RELATED ID: 2C5Y   RELATED DB: PDB                                   
+REMARK 900 DIFFERENTIAL BINDING OF INHIBITORS TO ACTIVE AND INACTIVE CDK2       
+REMARK 900 PROVIDES INSIGHTS FOR DRUG DESIGN                                    
+DBREF  2BTR A    1   298  UNP    P24941   CDK2_HUMAN       1    298             
+SEQRES   1 A  298  MET GLU ASN PHE GLN LYS VAL GLU LYS ILE GLY GLU GLY          
+SEQRES   2 A  298  THR TYR GLY VAL VAL TYR LYS ALA ARG ASN LYS LEU THR          
+SEQRES   3 A  298  GLY GLU VAL VAL ALA LEU LYS LYS ILE ARG LEU ASP THR          
+SEQRES   4 A  298  GLU THR GLU GLY VAL PRO SER THR ALA ILE ARG GLU ILE          
+SEQRES   5 A  298  SER LEU LEU LYS GLU LEU ASN HIS PRO ASN ILE VAL LYS          
+SEQRES   6 A  298  LEU LEU ASP VAL ILE HIS THR GLU ASN LYS LEU TYR LEU          
+SEQRES   7 A  298  VAL PHE GLU PHE LEU HIS GLN ASP LEU LYS LYS PHE MET          
+SEQRES   8 A  298  ASP ALA SER ALA LEU THR GLY ILE PRO LEU PRO LEU ILE          
+SEQRES   9 A  298  LYS SER TYR LEU PHE GLN LEU LEU GLN GLY LEU ALA PHE          
+SEQRES  10 A  298  CYS HIS SER HIS ARG VAL LEU HIS ARG ASP LEU LYS PRO          
+SEQRES  11 A  298  GLN ASN LEU LEU ILE ASN THR GLU GLY ALA ILE LYS LEU          
+SEQRES  12 A  298  ALA ASP PHE GLY LEU ALA ARG ALA PHE GLY VAL PRO VAL          
+SEQRES  13 A  298  ARG THR TYR THR HIS GLU VAL VAL THR LEU TRP TYR ARG          
+SEQRES  14 A  298  ALA PRO GLU ILE LEU LEU GLY CYS LYS TYR TYR SER THR          
+SEQRES  15 A  298  ALA VAL ASP ILE TRP SER LEU GLY CYS ILE PHE ALA GLU          
+SEQRES  16 A  298  MET VAL THR ARG ARG ALA LEU PHE PRO GLY ASP SER GLU          
+SEQRES  17 A  298  ILE ASP GLN LEU PHE ARG ILE PHE ARG THR LEU GLY THR          
+SEQRES  18 A  298  PRO ASP GLU VAL VAL TRP PRO GLY VAL THR SER MET PRO          
+SEQRES  19 A  298  ASP TYR LYS PRO SER PHE PRO LYS TRP ALA ARG GLN ASP          
+SEQRES  20 A  298  PHE SER LYS VAL VAL PRO PRO LEU ASP GLU ASP GLY ARG          
+SEQRES  21 A  298  SER LEU LEU SER GLN MET LEU HIS TYR ASP PRO ASN LYS          
+SEQRES  22 A  298  ARG ILE SER ALA LYS ALA ALA LEU ALA HIS PRO PHE PHE          
+SEQRES  23 A  298  GLN ASP VAL THR LYS PRO VAL PRO HIS LEU ARG LEU              
+HET    U73  A 300      18                                                       
+HETNAM     U73 N-(5-ISOPROPYL-THIAZOL-2-YL)-2-PYRIDIN-3-YL-ACETAMIDE            
+FORMUL   2  U73    C13 H15 N3 O S                                               
+FORMUL   3  HOH   *67(H2 O)                                                     
+HELIX    1   1 ALA A   48  GLU A   57  1                                  10
+HELIX    2   2 LEU A   87  ALA A   93  1                                   7
+HELIX    3   3 LEU A  101  HIS A  121  1                                  21
+HELIX    4   4 PRO A  130  ASN A  132  1                                   3
+HELIX    5   5 PRO A  171  LEU A  174  1                                   4
+HELIX    6   6 THR A  182  THR A  198  1                                  17
+HELIX    7   7 GLU A  208  LEU A  219  1                                  12
+HELIX    8   8 VAL A  230  SER A  232  1                                   3
+HELIX    9   9 PHE A  248  VAL A  251  1                                   4
+HELIX   10  10 GLU A  257  MET A  266  1                                  10
+HELIX   11  11 ALA A  277  ALA A  282  1                                   6
+HELIX   12  12 PRO A  284  PHE A  286  1                                   3
+SHEET    1   1 1 PHE A   4  LYS A   9  0
+SHEET    2   2 1 VAL A  17  ASN A  23  0
+SHEET    3   3 1 VAL A  29  ILE A  35  0
+SHEET    4   4 1 LEU A  66  THR A  72  0
+SHEET    5   5 1 LYS A  75  GLU A  81  0
+SHEET    6   6 1 LEU A 133  ILE A 135  0
+SHEET    7   7 1 ILE A 141  LEU A 143  0
+CISPEP   1 PRO A  253    PRO A  254          0        -3.24                     
+SITE     1 AC1  9 ILE A  10  VAL A  18  ALA A  31  GLU A  81                    
+SITE     2 AC1  9 PHE A  82  LEU A  83  HIS A  84  LEU A 134                    
+SITE     3 AC1  9 ASP A 145                                                     
+CRYST1   53.215   71.615   71.588  90.00  90.00  90.00 P 21 21 21    4          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.018792  0.000000  0.000000        0.00000                         
+SCALE2      0.000000  0.013964  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.013969        0.00000                         
+TER    2690      LEU A 298
+HETATM 2691  O11 U73 A 300       2.582  27.772   8.061  1.00 27.72           O
+HETATM 2692  C10 U73 A 300       3.357  28.474   7.415  1.00 26.38           C
+HETATM 2693  N9  U73 A 300       3.082  29.734   7.105  1.00 22.35           N
+HETATM 2694  C3  U73 A 300       1.776  30.429   7.375  1.00 21.80           C
+HETATM 2695  N4  U73 A 300       1.534  31.754   7.077  1.00 19.31           N
+HETATM 2696  C5  U73 A 300       0.342  32.007   7.482  1.00 20.64           C
+HETATM 2697  S2  U73 A 300       0.543  29.610   8.309  1.00 22.16           S
+HETATM 2698  C1  U73 A 300      -0.319  31.044   8.145  1.00 22.12           C
+HETATM 2699  C6  U73 A 300      -1.701  31.260   8.730  1.00 22.14           C
+HETATM 2700  C8  U73 A 300      -1.563  31.717  10.197  1.00 23.60           C
+HETATM 2701  C7  U73 A 300      -2.633  30.061   8.589  1.00 24.18           C
+HETATM 2702  C12 U73 A 300       4.730  27.960   7.043  1.00 26.71           C
+HETATM 2703  C13 U73 A 300       4.755  27.024   5.880  1.00 28.45           C
+HETATM 2704  C14 U73 A 300       4.575  25.664   6.066  1.00 28.31           C
+HETATM 2705  C15 U73 A 300       4.583  24.832   4.947  1.00 27.35           C
+HETATM 2706  C16 U73 A 300       4.769  25.386   3.708  1.00 30.73           C
+HETATM 2707  N17 U73 A 300       4.960  26.702   3.569  1.00 31.26           N
+HETATM 2708  C18 U73 A 300       4.959  27.526   4.618  1.00 30.63           C
+HETATM 2709  H9  U73 A 300       3.808  30.270   6.651  1.00  0.00           H
+CONECT 2698 2697 2699 2696
+CONECT 2692 2693 2691 2702
+CONECT 2702 2692 2703
+CONECT 2703 2704 2702 2708
+CONECT 2704 2703 2705
+CONECT 2705 2704 2706
+CONECT 2706 2705 2707
+CONECT 2708 2703 2707
+CONECT 2694 2693 2695 2697
+CONECT 2696 2695 2698
+CONECT 2699 2700 2698 2701
+CONECT 2701 2699
+CONECT 2700 2699
+CONECT 2709 2693
+CONECT 2707 2706 2708
+CONECT 2695 2694 2696
+CONECT 2693 2694 2692 2709
+CONECT 2691 2692
+CONECT 2697 2694 2698
+END
