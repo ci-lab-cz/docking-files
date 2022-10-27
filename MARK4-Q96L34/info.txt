@@ -1,0 +1,1 @@
+5ES1 - some protein atoms are too close and false bonds detected, but they are out of the grid box (but close to its borders)
