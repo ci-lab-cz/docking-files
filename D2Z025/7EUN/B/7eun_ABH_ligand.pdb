@@ -1,0 +1,57 @@
+HETATM    1  N   ABH B 405      63.867 -24.360  83.361  1.00 13.37           N
+HETATM    2  CA  ABH B 405      64.867 -24.123  82.274  1.00 13.35           C
+HETATM    3  C   ABH B 405      65.982 -23.222  82.725  1.00 14.37           C
+HETATM    4  O   ABH B 405      66.935 -23.006  81.942  1.00 15.61           O
+HETATM    5  OT  ABH B 405      65.976 -22.820  83.910  1.00 14.39           O
+HETATM    6  CB  ABH B 405      64.178 -23.617  81.007  1.00 14.31           C
+HETATM    7  CG  ABH B 405      63.853 -22.121  81.027  1.00 13.75           C
+HETATM    8  CD  ABH B 405      62.993 -21.680  79.835  1.00 12.42           C
+HETATM    9  CE  ABH B 405      62.852 -20.168  79.747  1.00 10.89           C
+HETATM   10  B   ABH B 405      61.546 -19.638  79.022  1.00 10.33           B
+HETATM   11  O2  ABH B 405      61.341 -18.163  78.996  1.00 11.69           O
+HETATM   12  O1  ABH B 405      60.263 -20.215  79.453  1.00  8.17           O
+HETATM   13  O3  ABH B 405      61.615 -20.082  77.536  1.00  9.87           O
+HETATM   14  HN1 ABH B 405      63.965 -25.325  83.715  1.00 16.06           H
+HETATM   15  HN2 ABH B 405      64.031 -23.692  84.132  1.00 16.06           H
+HETATM   16  HCA ABH B 405      65.328 -25.081  81.997  1.00 16.03           H
+HETATM   17 HCB1 ABH B 405      63.250 -24.175  80.867  1.00 17.18           H
+HETATM   18 HCB2 ABH B 405      64.825 -23.823  80.152  1.00 17.18           H
+HETATM   19 HCG1 ABH B 405      63.324 -21.885  81.952  1.00 16.51           H
+HETATM   20 HCG2 ABH B 405      64.787 -21.555  81.020  1.00 16.51           H
+HETATM   21 HCD1 ABH B 405      63.445 -22.051  78.912  1.00 14.91           H
+HETATM   22 HCD2 ABH B 405      62.001 -22.127  79.926  1.00 14.91           H
+HETATM   23 HCE1 ABH B 405      63.721 -19.774  79.216  1.00 13.08           H
+HETATM   24 HCE2 ABH B 405      62.867 -19.764  80.762  1.00 13.08           H
+HETATM   25  HO2 ABH B 405      61.886 -17.609  78.420  1.00 14.04           H
+HETATM   26  HO1 ABH B 405      60.016 -20.199  80.388  1.00  9.82           H
+HETATM   27  HO3 ABH B 405      62.456 -20.047  77.060  1.00 11.86           H
+HETATM   28  H1  ABH B 405      62.935 -24.229  82.995  1.00  0.00           H
+CONECT   10    9   11   12   13
+CONECT    3    2    4    5
+CONECT    2    1    3    6   16
+CONECT    6    2    7   17   18
+CONECT    8    7    9   21   22
+CONECT    9    8   10   23   24
+CONECT    7    6    8   19   20
+CONECT   28    1
+CONECT   16    2
+CONECT   17    6
+CONECT   18    6
+CONECT   21    8
+CONECT   22    8
+CONECT   23    9
+CONECT   24    9
+CONECT   19    7
+CONECT   20    7
+CONECT   14    1
+CONECT   15    1
+CONECT   26   12
+CONECT   25   11
+CONECT   27   13
+CONECT    1    2   14   15   28
+CONECT    4    3
+CONECT   12   10   26
+CONECT   11   10   25
+CONECT   13   10   27
+CONECT    5    3
+END

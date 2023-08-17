@@ -1,0 +1,109 @@
+HETATM    1  C11 HDQ A 405      35.285  85.454  71.140  1.00 21.50           C
+HETATM    2  C13 HDQ A 405      33.947  88.652  71.609  1.00 27.49           C
+HETATM    3  B6  HDQ A 405      37.613  86.689  66.304  1.00 25.13           B
+HETATM    4  C1  HDQ A 405      33.570  87.197  71.391  1.00 26.96           C
+HETATM    5  C16 HDQ A 405      34.670  84.069  72.967  1.00 38.66           C
+HETATM    6  C17 HDQ A 405      33.713  83.798  74.117  1.00 38.44           C
+HETATM    7  C19 HDQ A 405      31.494  82.678  74.544  1.00 42.52           C
+HETATM    8  C2  HDQ A 405      34.460  86.486  70.375  1.00 19.85           C
+HETATM    9  C20 HDQ A 405      32.046  82.537  75.958  1.00 45.69           C
+HETATM   10  C21 HDQ A 405      33.464  81.984  75.918  1.00 43.78           C
+HETATM   11  C22 HDQ A 405      34.412  82.879  75.118  1.00 48.10           C
+HETATM   12  C3  HDQ A 405      35.424  87.335  69.563  1.00 24.54           C
+HETATM   13  C4  HDQ A 405      36.126  86.508  68.468  1.00 22.25           C
+HETATM   14  C5  HDQ A 405      36.907  87.441  67.522  1.00 21.62           C
+HETATM   15  C9  HDQ A 405      33.688  86.376  72.690  1.00 22.47           C
+HETATM   16  N10 HDQ A 405      34.852  85.476  72.547  1.00 42.09           N
+HETATM   17  N12 HDQ A 405      32.175  87.136  70.918  1.00 22.95           N
+HETATM   18  N18 HDQ A 405      32.495  83.179  73.612  1.00 38.15           N
+HETATM   19  O14 HDQ A 405      35.043  88.948  72.166  1.00 24.16           O
+HETATM   20  O15 HDQ A 405      33.123  89.533  71.223  1.00 26.98           O
+HETATM   21  O23 HDQ A 405      38.062  87.521  65.125  1.00 26.05           O
+HETATM   22  O7  HDQ A 405      36.464  85.958  65.555  1.00 19.96           O
+HETATM   23  O8  HDQ A 405      38.525  85.560  66.712  1.00 23.32           O
+HETATM   24 H112 HDQ A 405      35.121  84.463  70.718  1.00  0.00           H
+HETATM   25 H113 HDQ A 405      36.344  85.710  71.077  1.00  0.00           H
+HETATM   26 H162 HDQ A 405      35.648  83.686  73.259  1.00  0.00           H
+HETATM   27 H163 HDQ A 405      34.330  83.499  72.103  1.00  0.00           H
+HETATM   28  H17 HDQ A 405      33.462  84.739  74.606  1.00  0.00           H
+HETATM   29 H192 HDQ A 405      31.154  81.701  74.201  1.00  0.00           H
+HETATM   30 H193 HDQ A 405      30.647  83.364  74.559  1.00  0.00           H
+HETATM   31  H2  HDQ A 405      33.815  85.951  69.678  1.00  0.00           H
+HETATM   32 H202 HDQ A 405      32.055  83.515  76.439  1.00  0.00           H
+HETATM   33 H203 HDQ A 405      31.410  81.861  76.528  1.00  0.00           H
+HETATM   34 H212 HDQ A 405      33.443  80.996  75.458  1.00  0.00           H
+HETATM   35 H213 HDQ A 405      33.839  81.893  76.938  1.00  0.00           H
+HETATM   36 H222 HDQ A 405      34.970  83.499  75.820  1.00  0.00           H
+HETATM   37 H223 HDQ A 405      35.116  82.246  74.578  1.00  0.00           H
+HETATM   38  H32 HDQ A 405      36.179  87.751  70.231  1.00  0.00           H
+HETATM   39  H33 HDQ A 405      34.874  88.152  69.095  1.00  0.00           H
+HETATM   40  H42 HDQ A 405      36.818  85.806  68.934  1.00  0.00           H
+HETATM   41  H43 HDQ A 405      35.379  85.956  67.897  1.00  0.00           H
+HETATM   42  H52 HDQ A 405      37.676  87.951  68.102  1.00  0.00           H
+HETATM   43  H53 HDQ A 405      36.220  88.186  67.121  1.00  0.00           H
+HETATM   44  H92 HDQ A 405      33.837  87.044  73.538  1.00  0.00           H
+HETATM   45  H93 HDQ A 405      32.782  85.788  72.838  1.00  0.00           H
+HETATM   46  H10 HDQ A 405      35.608  85.864  73.094  1.00  0.00           H
+HETATM   47 H182 HDQ A 405      32.036  83.868  73.034  1.00  0.00           H
+HETATM   48 H183 HDQ A 405      32.767  82.412  73.015  1.00  0.00           H
+HETATM   49 H121 HDQ A 405      31.549  87.326  71.688  1.00  0.00           H
+HETATM   50 H122 HDQ A 405      31.986  86.216  70.548  1.00  0.00           H
+HETATM   51 H123 HDQ A 405      32.035  87.826  70.193  1.00  0.00           H
+HETATM   52  H23 HDQ A 405      39.015  87.455  65.031  1.00  0.00           H
+HETATM   53  H7  HDQ A 405      35.618  86.280  65.875  1.00  0.00           H
+HETATM   54  H8  HDQ A 405      38.910  85.159  65.929  1.00  0.00           H
+CONECT    3   14   21   22   23
+CONECT    4    2    8   15   17
+CONECT    1    8   16   24   25
+CONECT    2    4   19   20
+CONECT    5    6   16   26   27
+CONECT    6    5   11   18   28
+CONECT    7    9   18   29   30
+CONECT    8    1    4   12   31
+CONECT    9    7   10   32   33
+CONECT   10    9   11   34   35
+CONECT   11    6   10   36   37
+CONECT   12    8   13   38   39
+CONECT   13   12   14   40   41
+CONECT   14    3   13   42   43
+CONECT   15    4   16   44   45
+CONECT   46   16
+CONECT   24    1
+CONECT   25    1
+CONECT   49   17
+CONECT   50   17
+CONECT   51   17
+CONECT   26    5
+CONECT   27    5
+CONECT   28    6
+CONECT   47   18
+CONECT   48   18
+CONECT   29    7
+CONECT   30    7
+CONECT   31    8
+CONECT   32    9
+CONECT   33    9
+CONECT   34   10
+CONECT   35   10
+CONECT   36   11
+CONECT   37   11
+CONECT   52   21
+CONECT   38   12
+CONECT   39   12
+CONECT   40   13
+CONECT   41   13
+CONECT   42   14
+CONECT   43   14
+CONECT   53   22
+CONECT   54   23
+CONECT   44   15
+CONECT   45   15
+CONECT   16    1    5   15   46
+CONECT   17    4   49   50   51
+CONECT   18    6    7   47   48
+CONECT   19    2
+CONECT   20    2
+CONECT   21    3   52
+CONECT   22    3   53
+CONECT   23    3   54
+END

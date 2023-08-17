@@ -1,0 +1,41 @@
+HETATM    1  O01 JDN B 301      94.466  98.792  12.708  1.00 31.26           O
+HETATM    2  B02 JDN B 301      95.583  97.943  12.931  1.00 30.86           B
+HETATM    3  O03 JDN B 301      95.389  96.551  12.778  1.00 28.36           O
+HETATM    4  C04 JDN B 301      97.018  98.514  12.417  1.00 31.77           C
+HETATM    5  C05 JDN B 301      97.169  99.876  12.148  1.00 32.24           C
+HETATM    6  C06 JDN B 301      98.424 100.343  11.680  1.00 35.75           C
+HETATM    7  C07 JDN B 301      99.464  99.455  11.492  1.00 27.97           C
+HETATM    8  C08 JDN B 301      99.292  98.062  11.763  1.00 30.17           C
+HETATM    9  C09 JDN B 301      98.073  97.609  12.218  1.00 29.70           C
+HETATM   10  N10 JDN B 301     100.558 100.146  11.036  1.00 32.63           N
+HETATM   11  C11 JDN B 301     100.277 101.443  10.925  1.00 37.12           C
+HETATM   12  C12 JDN B 301      98.951 101.630  11.313  1.00 37.93           C
+HETATM   13  H05 JDN B 301      96.346 100.561  12.294  1.00  0.00           H
+HETATM   14  H08 JDN B 301     100.108  97.371  11.612  1.00  0.00           H
+HETATM   15  H09 JDN B 301      97.930  96.558  12.421  1.00  0.00           H
+HETATM   16  H11 JDN B 301     100.958 102.214  10.594  1.00  0.00           H
+HETATM   17  H12 JDN B 301      98.417 102.569  11.333  1.00  0.00           H
+HETATM   18  H10 JDN B 301     101.451  99.729  10.815  1.00  0.00           H
+HETATM   19  H01 JDN B 301      93.677  98.382  13.068  1.00  0.00           H
+HETATM   20  H03 JDN B 301      95.577  96.299  11.871  1.00  0.00           H
+CONECT    2    1    3    4
+CONECT    4    2    5    9
+CONECT    5    4    6   13
+CONECT    6    5    7   12
+CONECT    7    6    8   10
+CONECT    8    7    9   14
+CONECT    9    4    8   15
+CONECT   11   10   12   16
+CONECT   12    6   11   17
+CONECT   19    1
+CONECT   20    3
+CONECT   13    5
+CONECT   14    8
+CONECT   15    9
+CONECT   18   10
+CONECT   16   11
+CONECT   17   12
+CONECT   10    7   11   18
+CONECT    1    2   19
+CONECT    3    2   20
+END

@@ -1,0 +1,73 @@
+HETATM    1  C10 OKP A 407      27.809  35.436  73.432  1.00 13.16           C
+HETATM    2  B11 OKP A 407      26.619  35.991  74.161  1.00 13.22           B
+HETATM    3  C02 OKP A 407      34.333  33.962  72.071  1.00 11.75           C
+HETATM    4  C03 OKP A 407      34.194  34.846  73.260  1.00 21.36           C
+HETATM    5  C04 OKP A 407      33.368  35.963  72.921  1.00 11.65           C
+HETATM    6  C06 OKP A 407      31.107  35.349  72.522  1.00 11.16           C
+HETATM    7  C07 OKP A 407      30.086  35.162  71.441  1.00 15.24           C
+HETATM    8  C08 OKP A 407      29.048  36.205  71.535  1.00 15.05           C
+HETATM    9  C09 OKP A 407      28.719  36.455  72.934  1.00 16.07           C
+HETATM   10  N01 OKP A 407      33.771  32.697  72.274  1.00 20.61           N
+HETATM   11  N05 OKP A 407      32.377  35.528  71.955  1.00 24.63           N
+HETATM   12  O12 OKP A 407      26.365  37.312  74.069  1.00 11.64           O
+HETATM   13  O13 OKP A 407      25.868  35.151  74.885  1.00 13.20           O
+HETATM   14 H102 OKP A 407      27.451  34.851  72.585  1.00  0.00           H
+HETATM   15 H103 OKP A 407      28.356  34.777  74.106  1.00  0.00           H
+HETATM   16 H022 OKP A 407      33.834  34.434  71.225  1.00  0.00           H
+HETATM   17 H023 OKP A 407      35.391  33.846  71.838  1.00  0.00           H
+HETATM   18 H032 OKP A 407      33.736  34.289  74.077  1.00  0.00           H
+HETATM   19 H033 OKP A 407      35.178  35.200  73.567  1.00  0.00           H
+HETATM   20 H042 OKP A 407      32.870  36.336  73.816  1.00  0.00           H
+HETATM   21 H043 OKP A 407      33.981  36.753  72.487  1.00  0.00           H
+HETATM   22 H062 OKP A 407      30.849  36.227  73.114  1.00  0.00           H
+HETATM   23 H063 OKP A 407      31.118  34.469  73.165  1.00  0.00           H
+HETATM   24 H072 OKP A 407      30.575  35.227  70.469  1.00  0.00           H
+HETATM   25 H073 OKP A 407      29.623  34.181  71.547  1.00  0.00           H
+HETATM   26 H082 OKP A 407      28.154  35.873  71.008  1.00  0.00           H
+HETATM   27 H083 OKP A 407      29.416  37.124  71.080  1.00  0.00           H
+HETATM   28 H092 OKP A 407      28.246  37.433  73.022  1.00  0.00           H
+HETATM   29 H093 OKP A 407      29.633  36.443  73.527  1.00  0.00           H
+HETATM   30 H052 OKP A 407      32.310  36.224  71.226  1.00  0.00           H
+HETATM   31 H053 OKP A 407      32.679  34.655  71.547  1.00  0.00           H
+HETATM   32  H13 OKP A 407      24.958  35.194  74.582  1.00  0.00           H
+HETATM   33  H12 OKP A 407      25.529  37.446  73.617  1.00  0.00           H
+HETATM   34 H011 OKP A 407      33.891  32.137  71.442  1.00  0.00           H
+HETATM   35 H012 OKP A 407      34.231  32.246  73.052  1.00  0.00           H
+HETATM   36 H013 OKP A 407      32.786  32.795  72.475  1.00  0.00           H
+CONECT    2    1   12   13
+CONECT    3    4   10   16   17
+CONECT    4    3    5   18   19
+CONECT    5    4   11   20   21
+CONECT    6    7   11   22   23
+CONECT    7    6    8   24   25
+CONECT    8    7    9   26   27
+CONECT    9    1    8   28   29
+CONECT    1    2    9   14   15
+CONECT   34   10
+CONECT   35   10
+CONECT   36   10
+CONECT   16    3
+CONECT   17    3
+CONECT   18    4
+CONECT   19    4
+CONECT   20    5
+CONECT   21    5
+CONECT   30   11
+CONECT   31   11
+CONECT   22    6
+CONECT   23    6
+CONECT   24    7
+CONECT   25    7
+CONECT   26    8
+CONECT   27    8
+CONECT   28    9
+CONECT   29    9
+CONECT   14    1
+CONECT   15    1
+CONECT   33   12
+CONECT   32   13
+CONECT   10    3   34   35   36
+CONECT   11    5    6   30   31
+CONECT   12    2   33
+CONECT   13    2   32
+END

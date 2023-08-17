@@ -1,0 +1,71 @@
+HETATM    1  N1  XFG A1003     -21.099  17.271 -13.408  1.00 23.43           N
+HETATM    2  C4  XFG A1003     -22.591  16.734 -11.506  1.00 19.73           C
+HETATM    3  C5  XFG A1003     -23.081  15.292 -11.749  1.00 16.03           C
+HETATM    4  C6  XFG A1003     -24.570  14.933 -11.688  1.00 16.53           C
+HETATM    5  C7  XFG A1003     -24.808  13.544 -12.292  1.00 11.40           C
+HETATM    6  O   XFG A1003     -20.177  15.077 -10.654  1.00 31.21           O
+HETATM    7  C3  XFG A1003     -20.134  15.703 -11.693  1.00 23.83           C
+HETATM    8  O1  XFG A1003     -19.293  15.440 -12.666  1.00 20.85           O
+HETATM    9  C2  XFG A1003     -21.053  16.945 -11.938  1.00 23.84           C
+HETATM   10  C1  XFG A1003     -22.418  17.929 -13.695  1.00 21.81           C
+HETATM   11  C   XFG A1003     -23.267  17.825 -12.359  1.00 19.85           C
+HETATM   12  N   XFG A1003     -23.372  19.150 -11.673  1.00 22.07           N
+HETATM   13  B   XFG A1003     -26.319  13.120 -12.375  1.00 16.66           B
+HETATM   14  O4  XFG A1003     -27.125  13.604 -11.269  1.00 16.03           O
+HETATM   15  O3  XFG A1003     -27.034  13.566 -13.565  1.00 26.37           O
+HETATM   16  O2  XFG A1003     -26.527  11.644 -12.463  1.00  8.45           O
+HETATM   17 HN12 XFG A1003     -20.344  17.899 -13.644  1.00  0.00           H
+HETATM   18 HN13 XFG A1003     -21.017  16.422 -13.949  1.00  0.00           H
+HETATM   19  H4  XFG A1003     -22.706  16.981 -10.450  1.00  0.00           H
+HETATM   20  H52 XFG A1003     -22.583  14.669 -11.005  1.00  0.00           H
+HETATM   21  H53 XFG A1003     -22.713  14.985 -12.728  1.00  0.00           H
+HETATM   22  H62 XFG A1003     -24.898  14.934 -10.649  1.00  0.00           H
+HETATM   23  H63 XFG A1003     -25.142  15.672 -12.247  1.00  0.00           H
+HETATM   24  H72 XFG A1003     -24.397  13.536 -13.301  1.00  0.00           H
+HETATM   25  H73 XFG A1003     -24.273  12.808 -11.692  1.00  0.00           H
+HETATM   26  H2  XFG A1003     -20.647  17.799 -11.397  1.00  0.00           H
+HETATM   27  H12 XFG A1003     -22.928  17.413 -14.508  1.00  0.00           H
+HETATM   28  H13 XFG A1003     -22.263  18.975 -13.957  1.00  0.00           H
+HETATM   29  H   XFG A1003     -24.271  17.489 -12.615  1.00  0.00           H
+HETATM   30  HN1 XFG A1003     -23.527  19.005 -10.685  1.00  0.00           H
+HETATM   31  HN2 XFG A1003     -24.146  19.670 -12.063  1.00  0.00           H
+HETATM   32  HN3 XFG A1003     -22.516  19.667 -11.808  1.00  0.00           H
+HETATM   33  HO2 XFG A1003     -27.033  11.347 -11.704  1.00  0.00           H
+HETATM   34  HO4 XFG A1003     -27.440  12.859 -10.752  1.00  0.00           H
+HETATM   35  H3  XFG A1003     -26.440  14.069 -14.126  1.00  0.00           H
+CONECT   13    5   14   15   16
+CONECT   11    2   10   12   29
+CONECT   10    1   11   27   28
+CONECT    9    1    2    7   26
+CONECT    7    6    8    9
+CONECT    2    3    9   11   19
+CONECT    3    2    4   20   21
+CONECT    4    3    5   23   22
+CONECT    5    4   13   24   25
+CONECT   29   11
+CONECT   27   10
+CONECT   28   10
+CONECT   26    9
+CONECT   35   15
+CONECT   19    2
+CONECT   20    3
+CONECT   21    3
+CONECT   22    4
+CONECT   23    4
+CONECT   24    5
+CONECT   25    5
+CONECT   30   12
+CONECT   17    1
+CONECT   18    1
+CONECT   31   12
+CONECT   32   12
+CONECT   33   16
+CONECT   34   14
+CONECT   12   11   30   31   32
+CONECT    1    9   10   17   18
+CONECT    6    7
+CONECT    8    7
+CONECT   16   13   33
+CONECT   15   13   35
+CONECT   14   13   34
+END

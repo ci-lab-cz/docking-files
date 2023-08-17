@@ -1,0 +1,51 @@
+HETATM    1  C02 QNA A 303      -6.725   4.679 -10.389  1.00 12.72           C
+HETATM    2  C09 QNA A 303      -7.188   2.917 -13.779  1.00 12.80           C
+HETATM    3  C10 QNA A 303      -7.518   3.643 -12.576  1.00 12.07           C
+HETATM    4  C16 QNA A 303      -9.706   2.122 -14.681  1.00 13.10           C
+HETATM    5  C17 QNA A 303      -8.265   2.713 -14.700  1.00 12.95           C
+HETATM    6  O01 QNA A 303      -7.846   4.678  -9.785  1.00 11.25           O
+HETATM    7  O14 QNA A 303     -10.835   4.980 -12.871  1.00  9.87           O
+HETATM    8  B12 QNA A 303      -9.538   4.764 -13.499  1.00 11.00           B
+HETATM    9  C04 QNA A 303      -6.477   3.850 -11.623  1.00 13.33           C
+HETATM   10  C05 QNA A 303      -5.201   3.350 -11.904  1.00 15.51           C
+HETATM   11  C07 QNA A 303      -4.859   2.618 -13.058  1.00 15.20           C
+HETATM   12  C08 QNA A 303      -5.888   2.405 -13.999  1.00 14.29           C
+HETATM   13  C15 QNA A 303      -9.519   3.643 -14.573  1.00 12.20           C
+HETATM   14  F06 QNA A 303      -4.189   3.561 -10.960  1.00 17.69           F
+HETATM   15  O03 QNA A 303      -5.829   5.507 -10.005  1.00 14.14           O
+HETATM   16  O11 QNA A 303      -8.690   4.068 -12.357  1.00 11.17           O
+HETATM   17  O13 QNA A 303      -8.897   5.990 -13.843  1.00 12.13           O
+HETATM   18 H162 QNA A 303     -10.048   1.554 -13.816  1.00  0.00           H
+HETATM   19 H163 QNA A 303     -10.075   1.767 -15.644  1.00  0.00           H
+HETATM   20  H17 QNA A 303      -7.887   2.737 -15.723  1.00  0.00           H
+HETATM   21  H07 QNA A 303      -3.859   2.240 -13.215  1.00  0.00           H
+HETATM   22  H08 QNA A 303      -5.682   1.844 -14.898  1.00  0.00           H
+HETATM   23  H15 QNA A 303      -9.723   4.090 -15.546  1.00  0.00           H
+HETATM   24  H13 QNA A 303      -8.034   6.028 -13.424  1.00  0.00           H
+HETATM   25  H14 QNA A 303     -11.526   4.629 -13.437  1.00  0.00           H
+CONECT    8    7   13   16   17
+CONECT    1    6    9   15
+CONECT    9    1    3   10
+CONECT   10    9   11   14
+CONECT   11   10   12   21
+CONECT   12    2   11   22
+CONECT    2    3    5   12
+CONECT    3    2    9   16
+CONECT   13    4    5    8   23
+CONECT    4    5   13   18   19
+CONECT    5    2    4   13   20
+CONECT   14   10
+CONECT   21   11
+CONECT   22   12
+CONECT   24   17
+CONECT   25    7
+CONECT   23   13
+CONECT   18    4
+CONECT   19    4
+CONECT   20    5
+CONECT    6    1
+CONECT   15    1
+CONECT   16    3    8
+CONECT   17    8   24
+CONECT    7    8   25
+END

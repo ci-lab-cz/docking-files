@@ -1,0 +1,65 @@
+HETATM    1  C4  VUV A 403     -21.092  17.122 -11.831  1.00  8.28           C
+HETATM    2  C5  VUV A 403     -20.120  15.899 -11.801  1.00  8.03           C
+HETATM    3  C6  VUV A 403     -22.440  18.330 -13.473  1.00  8.42           C
+HETATM    4  C7  VUV A 403     -23.279  18.000 -12.241  1.00  8.42           C
+HETATM    5  O4  VUV A 403     -19.539  15.457 -12.777  1.00  7.77           O
+HETATM    6  O3  VUV A 403     -20.000  15.417 -10.596  1.00  7.49           O
+HETATM    7  N   VUV A 403     -21.065  17.769 -13.188  1.00  8.48           N
+HETATM    8  C3  VUV A 403     -22.570  16.807 -11.585  1.00  8.56           C
+HETATM    9  C2  VUV A 403     -22.999  15.427 -12.125  1.00  9.13           C
+HETATM   10  C1  VUV A 403     -24.442  15.011 -11.827  1.00  9.46           C
+HETATM   11  C   VUV A 403     -24.740  13.544 -12.141  1.00  9.31           C
+HETATM   12  B   VUV A 403     -26.254  13.316 -12.393  1.00  9.64           B
+HETATM   13  O2  VUV A 403     -27.115  13.794 -11.288  1.00 10.63           O
+HETATM   14  O1  VUV A 403     -26.747  13.975 -13.610  1.00  9.05           O
+HETATM   15  O   VUV A 403     -26.565  11.899 -12.575  1.00  9.17           O
+HETATM   16  HC  VUV A 403     -20.761  17.850 -11.090  1.00  0.00           H
+HETATM   17  HC2 VUV A 403     -22.865  17.862 -14.361  1.00  0.00           H
+HETATM   18  HC3 VUV A 403     -22.382  19.411 -13.609  1.00  0.00           H
+HETATM   19  HC4 VUV A 403     -24.295  17.731 -12.530  1.00  0.00           H
+HETATM   20  HC5 VUV A 403     -23.295  18.849 -11.558  1.00  0.00           H
+HETATM   21  HN2 VUV A 403     -20.383  18.513 -13.198  1.00  0.00           H
+HETATM   22  HN3 VUV A 403     -20.827  17.080 -13.888  1.00  0.00           H
+HETATM   23  HC1 VUV A 403     -22.759  16.836 -10.513  1.00  0.00           H
+HETATM   24  HC6 VUV A 403     -22.872  15.439 -13.208  1.00  0.00           H
+HETATM   25  HC7 VUV A 403     -22.332  14.674 -11.709  1.00  0.00           H
+HETATM   26  HC8 VUV A 403     -25.108  15.632 -12.425  1.00  0.00           H
+HETATM   27  HC9 VUV A 403     -24.647  15.192 -10.772  1.00  0.00           H
+HETATM   28 HC10 VUV A 403     -24.185  13.251 -13.031  1.00  0.00           H
+HETATM   29 HC11 VUV A 403     -24.420  12.927 -11.301  1.00  0.00           H
+HETATM   30  HO  VUV A 403     -26.008  14.363 -14.086  1.00  0.00           H
+HETATM   31  HO1 VUV A 403     -27.091  11.589 -11.836  1.00  0.00           H
+HETATM   32  HO2 VUV A 403     -26.619  14.401 -10.734  1.00  0.00           H
+CONECT   12   11   13   14   15
+CONECT   11   10   12   28   29
+CONECT   10    9   11   26   27
+CONECT    9    8   10   24   25
+CONECT    8    1    4    9   23
+CONECT    1    2    7    8   16
+CONECT    2    1    5    6
+CONECT    3    4    7   17   18
+CONECT    4    3    8   19   20
+CONECT   16    1
+CONECT   23    8
+CONECT   28   11
+CONECT   29   11
+CONECT   17    3
+CONECT   18    3
+CONECT   19    4
+CONECT   20    4
+CONECT   24    9
+CONECT   25    9
+CONECT   26   10
+CONECT   27   10
+CONECT   21    7
+CONECT   22    7
+CONECT   30   14
+CONECT   31   15
+CONECT   32   13
+CONECT    7    1    3   21   22
+CONECT   15   12   31
+CONECT   14   12   30
+CONECT   13   12   32
+CONECT    6    2
+CONECT    5    2
+END

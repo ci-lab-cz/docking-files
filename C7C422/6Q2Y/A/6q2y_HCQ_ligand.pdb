@@ -1,0 +1,53 @@
+HETATM    1  C14 HCQ A 305      -9.201   0.525 -19.747  1.00 21.38           C
+HETATM    2  C13 HCQ A 305      -7.583   0.252 -17.654  1.00 15.76           C
+HETATM    3  C12 HCQ A 305      -7.212   0.665 -16.321  1.00 13.53           C
+HETATM    4  C11 HCQ A 305      -8.001   1.701 -15.601  1.00 12.10           C
+HETATM    5  C01 HCQ A 305      -8.729   0.862 -18.336  1.00 15.37           C
+HETATM    6  C02 HCQ A 305      -9.536   1.867 -17.669  1.00 13.38           C
+HETATM    7  C03 HCQ A 305      -9.118   2.246 -16.320  1.00 11.00           C
+HETATM    8  C04 HCQ A 305      -9.925   3.223 -15.488  1.00  8.67           C
+HETATM    9  C05 HCQ A 305      -9.092   3.301 -14.223  1.00  8.95           C
+HETATM   10  B06 HCQ A 305      -9.345   4.401 -13.090  1.00  7.83           B
+HETATM   11  O07 HCQ A 305      -8.642   5.753 -13.384  1.00  9.23           O
+HETATM   12  O08 HCQ A 305      -8.769   3.942 -11.795  1.00  9.08           O
+HETATM   13  O09 HCQ A 305     -10.746   4.800 -12.851  1.00  7.52           O
+HETATM   14  S10 HCQ A 305      -7.783   2.272 -14.086  1.00 10.77           S
+HETATM   15  N15 HCQ A 305      -9.170  -0.870 -20.068  1.00 26.84           N
+HETATM   16 H142 HCQ A 305      -8.561   1.051 -20.455  1.00  0.00           H
+HETATM   17 H143 HCQ A 305     -10.222   0.886 -19.867  1.00  0.00           H
+HETATM   18  H13 HCQ A 305      -7.010  -0.516 -18.154  1.00  0.00           H
+HETATM   19  H12 HCQ A 305      -6.354   0.217 -15.841  1.00  0.00           H
+HETATM   20  H02 HCQ A 305     -10.398   2.312 -18.144  1.00  0.00           H
+HETATM   21  H04 HCQ A 305     -10.848   3.730 -15.732  1.00  0.00           H
+HETATM   22 H151 HCQ A 305      -8.741  -1.380 -19.309  1.00  0.00           H
+HETATM   23 H152 HCQ A 305      -8.633  -1.010 -20.912  1.00  0.00           H
+HETATM   24 H153 HCQ A 305     -10.113  -1.205 -20.208  1.00  0.00           H
+HETATM   25  H07 HCQ A 305      -8.374   5.780 -14.305  1.00  0.00           H
+HETATM   26  H08 HCQ A 305      -8.332   4.678 -11.360  1.00  0.00           H
+CONECT   10    9   11   12   13
+CONECT    5    1    2    6
+CONECT    6    5    7   20
+CONECT    7    4    6    8
+CONECT    8    7    9   21
+CONECT    9    8   10   14
+CONECT    4    3    7   14
+CONECT    3    2    4   19
+CONECT    2    3    5   18
+CONECT    1    5   15   16   17
+CONECT   20    6
+CONECT   21    8
+CONECT   25   11
+CONECT   26   12
+CONECT   19    3
+CONECT   18    2
+CONECT   16    1
+CONECT   17    1
+CONECT   22   15
+CONECT   23   15
+CONECT   24   15
+CONECT   15    1   22   23   24
+CONECT   11   10   25
+CONECT   12   10   26
+CONECT   13   10
+CONECT   14    4    9
+END

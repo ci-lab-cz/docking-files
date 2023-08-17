@@ -1,0 +1,71 @@
+HETATM    1  O3  XFP A 403     -19.977  15.492 -10.445  1.00 15.87           O
+HETATM    2  C8  XFP A 403     -20.011  15.949 -11.577  1.00 15.28           C
+HETATM    3  O4  XFP A 403     -19.240  15.557 -12.573  1.00 15.46           O
+HETATM    4  C   XFP A 403     -21.009  17.096 -11.951  1.00 14.78           C
+HETATM    5  C1  XFP A 403     -22.471  16.818 -11.548  1.00 14.22           C
+HETATM    6  C2  XFP A 403     -23.300  18.054 -11.889  1.00 14.86           C
+HETATM    7  C3  XFP A 403     -23.235  18.390 -13.376  1.00 15.05           C
+HETATM    8  C4  XFP A 403     -21.810  18.620 -13.819  1.00 14.76           C
+HETATM    9  N   XFP A 403     -20.945  17.462 -13.423  1.00 14.90           N
+HETATM   10  C5  XFP A 403     -22.887  15.430 -12.049  1.00 13.58           C
+HETATM   11  C6  XFP A 403     -24.375  15.131 -11.976  1.00 13.42           C
+HETATM   12  C7  XFP A 403     -24.717  13.649 -12.119  1.00 13.12           C
+HETATM   13  B   XFP A 403     -26.199  13.189 -12.344  1.00 13.24           B
+HETATM   14  O2  XFP A 403     -27.151  13.587 -11.333  1.00 13.83           O
+HETATM   15  O1  XFP A 403     -26.475  11.718 -12.402  1.00 12.82           O
+HETATM   16  O   XFP A 403     -26.743  13.790 -13.578  1.00 13.06           O
+HETATM   17  HC  XFP A 403     -20.694  17.979 -11.396  1.00  0.00           H
+HETATM   18  HC1 XFP A 403     -22.471  16.752 -10.459  1.00  0.00           H
+HETATM   19  HC2 XFP A 403     -24.338  17.868 -11.615  1.00  0.00           H
+HETATM   20  HC3 XFP A 403     -22.927  18.903 -11.315  1.00  0.00           H
+HETATM   21  HC4 XFP A 403     -23.656  17.563 -13.947  1.00  0.00           H
+HETATM   22  HC5 XFP A 403     -23.818  19.291 -13.567  1.00  0.00           H
+HETATM   23  HC6 XFP A 403     -21.785  18.732 -14.903  1.00  0.00           H
+HETATM   24  HC7 XFP A 403     -21.431  19.529 -13.354  1.00  0.00           H
+HETATM   25  HN2 XFP A 403     -19.989  17.692 -13.648  1.00  0.00           H
+HETATM   26  HN3 XFP A 403     -21.218  16.655 -13.967  1.00  0.00           H
+HETATM   27  HC8 XFP A 403     -22.576  15.341 -13.090  1.00  0.00           H
+HETATM   28  HC9 XFP A 403     -22.356  14.679 -11.465  1.00  0.00           H
+HETATM   29 HC10 XFP A 403     -24.874  15.676 -12.777  1.00  0.00           H
+HETATM   30 HC11 XFP A 403     -24.757  15.488 -11.020  1.00  0.00           H
+HETATM   31 HC12 XFP A 403     -24.143  13.276 -12.967  1.00  0.00           H
+HETATM   32 HC13 XFP A 403     -24.349  13.141 -11.227  1.00  0.00           H
+HETATM   33  HO  XFP A 403     -26.029  14.179 -14.088  1.00  0.00           H
+HETATM   34  HO1 XFP A 403     -26.985  11.458 -11.632  1.00  0.00           H
+HETATM   35  HO2 XFP A 403     -26.729  14.187 -10.714  1.00  0.00           H
+CONECT   13   12   14   15   16
+CONECT    4    2    5    9   17
+CONECT    5    4    6   10   18
+CONECT    6    5    7   19   20
+CONECT    7    6    8   21   22
+CONECT    8    7    9   23   24
+CONECT   10    5   11   27   28
+CONECT   11   10   12   29   30
+CONECT   12   11   13   31   32
+CONECT    2    1    3    4
+CONECT   17    4
+CONECT   18    5
+CONECT   29   11
+CONECT   30   11
+CONECT   31   12
+CONECT   32   12
+CONECT   19    6
+CONECT   20    6
+CONECT   21    7
+CONECT   22    7
+CONECT   23    8
+CONECT   24    8
+CONECT   27   10
+CONECT   28   10
+CONECT   25    9
+CONECT   26    9
+CONECT   33   16
+CONECT   34   15
+CONECT   35   14
+CONECT    9    4    8   25   26
+CONECT   16   13   33
+CONECT   15   13   34
+CONECT   14   13   35
+CONECT    1    2
+CONECT    3    2
+END

@@ -1,0 +1,71 @@
+HETATM    1  C5  KKE A 302      -6.701   3.477  16.148  1.00  8.63           C
+HETATM    2  C4  KKE A 302      -6.049   4.459  15.427  1.00  9.53           C
+HETATM    3  C3  KKE A 302      -4.907   4.146  14.701  1.00 10.08           C
+HETATM    4  C2  KKE A 302      -4.438   2.830  14.704  1.00  8.84           C
+HETATM    5  C1  KKE A 302      -5.082   1.815  15.436  1.00  8.40           C
+HETATM    6  C6  KKE A 302      -6.223   2.169  16.158  1.00  8.16           C
+HETATM    7  C7  KKE A 302      -6.730   0.983  16.915  1.00  5.94           C
+HETATM    8  O3  KKE A 302      -3.539   0.083  16.567  1.00  8.22           O
+HETATM    9  C11 KKE A 302      -0.274   7.939  12.712  1.00 18.48           C
+HETATM   10  C10 KKE A 302      -1.451   7.397  12.221  1.00 18.35           C
+HETATM   11  C12 KKE A 302      -0.176   8.320  14.036  1.00 17.79           C
+HETATM   12  C13 KKE A 302      -1.256   8.157  14.880  1.00 13.24           C
+HETATM   13  C14 KKE A 302      -2.435   7.613  14.401  1.00 14.06           C
+HETATM   14  C9  KKE A 302      -2.543   7.238  13.065  1.00 14.78           C
+HETATM   15  S1  KKE A 302      -6.187   5.727  12.318  1.00 14.13           S
+HETATM   16  N1  KKE A 302      -4.223   5.184  14.022  1.00 12.81           N
+HETATM   17  N2  KKE A 302      -3.803   6.860  12.549  1.00 14.37           N
+HETATM   18  C8  KKE A 302      -4.655   5.909  12.972  1.00 14.03           C
+HETATM   19  B1  KKE A 302      -4.732   0.259  15.731  1.00  7.30           B
+HETATM   20  O1  KKE A 302      -5.940  -0.123  16.504  1.00  6.14           O
+HETATM   21  O2  KKE A 302      -4.664  -0.642  14.578  1.00  7.54           O
+HETATM   22  HC  KKE A 302      -7.590   3.726  16.710  1.00  0.00           H
+HETATM   23  HC1 KKE A 302      -6.428   5.471  15.426  1.00  0.00           H
+HETATM   24  HC2 KKE A 302      -3.557   2.586  14.130  1.00  0.00           H
+HETATM   25  HC3 KKE A 302      -6.622   1.147  17.987  1.00  0.00           H
+HETATM   26  HC4 KKE A 302      -7.777   0.804  16.669  1.00  0.00           H
+HETATM   27  HC5 KKE A 302       0.574   8.064  12.054  1.00  0.00           H
+HETATM   28  HC6 KKE A 302      -1.519   7.099  11.186  1.00  0.00           H
+HETATM   29  HC7 KKE A 302       0.743   8.746  14.410  1.00  0.00           H
+HETATM   30  HC8 KKE A 302      -1.181   8.454  15.916  1.00  0.00           H
+HETATM   31  HC9 KKE A 302      -3.276   7.480  15.066  1.00  0.00           H
+HETATM   32  HN  KKE A 302      -3.300   5.408  14.366  1.00  0.00           H
+HETATM   33  HN1 KKE A 302      -4.109   7.382  11.741  1.00  0.00           H
+HETATM   34  HO  KKE A 302      -3.689  -0.630  17.193  1.00  0.00           H
+HETATM   35  HO1 KKE A 302      -4.633  -0.125  13.769  1.00  0.00           H
+CONECT   19    5    8   20   21
+CONECT    5    4    6   19
+CONECT   10    9   14   28
+CONECT    9   10   11   27
+CONECT   11    9   12   29
+CONECT   12   11   13   30
+CONECT   13   12   14   31
+CONECT    4    3    5   24
+CONECT    3    2    4   16
+CONECT    2    1    3   23
+CONECT    1    2    6   22
+CONECT    6    1    5    7
+CONECT    7    6   20   25   26
+CONECT   18   15   16   17
+CONECT   14   10   13   17
+CONECT   22    1
+CONECT   23    2
+CONECT   24    4
+CONECT   25    7
+CONECT   26    7
+CONECT   27    9
+CONECT   28   10
+CONECT   29   11
+CONECT   30   12
+CONECT   31   13
+CONECT   32   16
+CONECT   33   17
+CONECT   34    8
+CONECT   35   21
+CONECT   16    3   18   32
+CONECT   17   14   18   33
+CONECT   20    7   19
+CONECT   21   19   35
+CONECT    8   19   34
+CONECT   15   18
+END
