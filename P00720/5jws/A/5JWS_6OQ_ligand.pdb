@@ -1,0 +1,38 @@
+CRYST1   60.130   60.130   95.610  90.00  90.00 120.00 P 32 2 1      1
+HETATM    1  C01A6OQ A 201     -32.853   8.515   1.377  1.00 18.23           C  
+HETATM    2  C02A6OQ A 201     -32.080   7.584   2.260  1.00 17.00           C  
+HETATM    3  N04A6OQ A 201     -33.651   5.774   3.110  1.00 16.96           N1+
+HETATM    4  C05A6OQ A 201     -34.347   5.215   4.049  1.00 11.80           C  
+HETATM    5  C06A6OQ A 201     -34.457   5.660   5.370  1.00 14.28           C  
+HETATM    6  C07A6OQ A 201     -33.797   6.768   5.788  1.00 15.02           C  
+HETATM    7  C08A6OQ A 201     -32.945   7.517   4.822  1.00 13.68           C  
+HETATM    8  B03A6OQ A 201     -32.937   6.897   3.381  1.00 11.38           B  
+HETATM    9  H01A6OQ A 201     -32.381   8.410   5.091  1.00 13.68           H  
+HETATM   10  H02A6OQ A 201     -33.639   5.377   2.181  1.00 16.96           H  
+HETATM   11  H05A6OQ A 201     -34.894   4.321   3.787  1.00  0.00           H  
+HETATM   12  H06A6OQ A 201     -35.076   5.114   6.067  1.00  0.00           H  
+HETATM   13  H07A6OQ A 201     -33.888   7.104   6.810  1.00  0.00           H  
+HETATM   14 H011A6OQ A 201     -32.172   9.236   0.925  1.00  0.00           H  
+HETATM   15 H012A6OQ A 201     -33.350   7.943   0.593  1.00  0.00           H  
+HETATM   16 H013A6OQ A 201     -33.600   9.043   1.971  1.00  0.00           H  
+HETATM   17 H022A6OQ A 201     -31.283   8.152   2.740  1.00  0.00           H  
+HETATM   18 H023A6OQ A 201     -31.631   6.808   1.640  1.00  0.00           H  
+CONECT    1    2   14   15   16
+CONECT    2    1    8   17   18
+CONECT    3    4    8   10
+CONECT    4    3    5   11
+CONECT    5    4    6   12
+CONECT    6    5    7   13
+CONECT    7    6    8    9
+CONECT    8    2    3    7
+CONECT    9    7
+CONECT   10    3
+CONECT   11    4
+CONECT   12    5
+CONECT   13    6
+CONECT   14    1
+CONECT   15    1
+CONECT   16    1
+CONECT   17    2
+CONECT   18    2
+END
