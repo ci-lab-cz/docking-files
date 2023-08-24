@@ -100,11 +100,11 @@ def convertpdb2mol(input_fnames, input_smi, regex):
         print(in_fname)
         mol_name = None
         if regex:
-            mol_name = re.search(regex, os.path.basename(in_fname).replace('.pdb',''))
+            mol_name = re.search(regex, os.path.basename(in_fname))
             if mol_name:
                 mol_name = mol_name.group()
         if not mol_name:
-            mol_name = os.path.basename(in_fname).replace('.pdb','')
+            mol_name = os.path.basename(in_fname)
 
         if smis:
             if mol_name.lower() in smis:
