@@ -68,6 +68,9 @@ def main(pdbid_list, out_path, split, ncpu):
     p.join()
 
     # save pdb
+    with open(os.path.join(out_path, f'target_list.txt'), 'w') as output:
+        for pdbid in pdb_all_structrs.keys():
+            output.write(f'{pdbid.upper()}\n')
     all_smiles = {}
     for pdbid, pdbblock in pdb_all_structrs.items():
         outdir = os.path.join(out_path, pdbid)
