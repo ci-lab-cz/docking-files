@@ -4,6 +4,8 @@ This is a repository of protein-ligand complexes prepared for docking in PDB nad
 
 The detailed pipeline is described in the document `Target-prepare_desgn.docx`. Please follow it if you contribute a new structure.    
 
+The major feature is that all structures of an individual protein are aligned and a single grid box is used for all of them.
+
 The repository is composed of directories for individual proteins, where every directory has the following structure:
 ```
 UNIPROT_ID                 (protein)
@@ -24,4 +26,3 @@ UNIPROT_ID                 (protein)
 |-info.txt                 (auxillary information)
 ```
 The directory `scripts` contains some useful scripts for protein preparation.
- 
