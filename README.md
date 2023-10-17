@@ -23,3 +23,5 @@ UNIPROT_ID                 (protein)
 |-box.txt                  (grid box, may have different names)
 |-info.txt                 (auxillary information)
 ```
+The directory `scripts` contains some useful scripts for protein preparation.
+ 
