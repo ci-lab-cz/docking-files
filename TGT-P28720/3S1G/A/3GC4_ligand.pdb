@@ -1,0 +1,56 @@
+CRYST1   90.500   64.900   70.400  90.00  96.00  90.00 C 1 2 1       4
+HETATM    1  C1  AAQ A 395      18.157  17.810  14.620  1.00 14.44      B    C  
+HETATM    2  N1  AAQ A 395      19.268  17.870  18.108  1.00 10.45      B    N  
+HETATM    3  O1  AAQ A 395      19.038  17.609  23.336  1.00 11.60      B    O  
+HETATM    4  C2  AAQ A 395      18.806  17.537  20.579  1.00  9.25      B    C  
+HETATM    5  N2  AAQ A 395      14.241  14.600  17.210  1.00 17.54      B    N  
+HETATM    6  C3  AAQ A 395      18.533  17.514  19.212  1.00  8.79      B    C  
+HETATM    7  N3  AAQ A 395      17.333  17.147  17.315  1.00  8.16      B    N  
+HETATM    8  C4  AAQ A 395      17.754  17.188  21.423  1.00 10.80      B    C  
+HETATM    9  N4  AAQ A 395      18.990  17.948  15.785  1.00 12.79      B    N  
+HETATM   10  C5  AAQ A 395      16.519  16.714  20.931  1.00 13.22      B    C  
+HETATM   11  N5  AAQ A 395      15.482  16.419  21.848  1.00 18.33      B    N  
+HETATM   12  C6  AAQ A 395      16.308  16.617  19.537  1.00  8.83      B    C  
+HETATM   13  N6  AAQ A 395      14.666  16.187  24.044  1.00 10.14      B    N  
+HETATM   14  C7  AAQ A 395      14.985  16.242  18.914  1.00  7.28      B    C  
+HETATM   15  N7  AAQ A 395      16.823  17.043  23.664  1.00 10.65      B    N  
+HETATM   16  C8  AAQ A 395      15.114  14.825  18.378  1.00 11.86      B    C  
+HETATM   17  C9  AAQ A 395      12.806  14.424  17.584  1.00 19.70      B    C  
+HETATM   18  C10 AAQ A 395      12.023  15.581  17.045  1.00 23.05      B    C  
+HETATM   19  C11 AAQ A 395      11.780  16.695  17.840  1.00 23.62      B    C  
+HETATM   20  C12 AAQ A 395      11.056  17.787  17.366  1.00 17.58      B    C  
+HETATM   21  C13 AAQ A 395      10.575  17.733  16.063  1.00 23.33      B    C  
+HETATM   22  C14 AAQ A 395      10.813  16.623  15.256  1.00 24.89      B    C  
+HETATM   23  C15 AAQ A 395      11.538  15.536  15.738  1.00 26.72      B    C  
+HETATM   24  C16 AAQ A 395      17.336  17.059  18.685  1.00  9.63      B    C  
+HETATM   25  C17 AAQ A 395      18.458  17.741  17.001  1.00 12.46      B    C  
+HETATM   26  C18 AAQ A 395      15.622  16.606  23.134  1.00 14.96      B    C  
+HETATM   27  C19 AAQ A 395      17.936  17.302  22.876  1.00 12.59      B    C  
+CONECT    1    9
+CONECT    2    6   25
+CONECT    3   27
+CONECT    4    6    8
+CONECT    5   16   17
+CONECT    6    2    4   24
+CONECT    7   24   25
+CONECT    8    4   10   27
+CONECT    9    1   25
+CONECT   10    8   11   12
+CONECT   11   10   26
+CONECT   12   10   14   24
+CONECT   13   26
+CONECT   14   12   16
+CONECT   15   26   27
+CONECT   16    5   14
+CONECT   17    5   18
+CONECT   18   17   19   23
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   18   22
+CONECT   24    6    7   12
+CONECT   25    2    7    9
+CONECT   26   11   13   15
+CONECT   27    3    8   15
+END
