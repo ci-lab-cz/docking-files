@@ -40,6 +40,7 @@ def get_major_microspecies(smi_fname, h='7.4', tautomerize=False):
 
     return canon_smi_dict
 
+
 def get_smi_dict(input_smi):
     smis = dict()
     with open(input_smi) as f:
@@ -51,6 +52,7 @@ def get_smi_dict(input_smi):
                 logging.warning(
                     f'Line "{line}" in input smiles does not have two fields - SMILES and mol name. Skipped.\n')
     return smis
+
 
 def convertpdb2mol(input_fnames, input_smi, regex, no_protonation, tautomerization):
 
@@ -66,11 +68,11 @@ def convertpdb2mol(input_fnames, input_smi, regex, no_protonation, tautomerizati
     for in_fname in input_fnames:
         mol_name = None
         if regex:
-            mol_name = re.search(regex, os.path.basename(in_fname).replace('.pdb',''))
+            mol_name = re.search(regex, os.path.basename(in_fname).replace('.pdb', ''))
             if mol_name:
                 mol_name = mol_name.group()
         if not mol_name:
-            mol_name = os.path.basename(in_fname).replace('.pdb','')
+            mol_name = os.path.basename(in_fname).replace('.pdb', '')
 
         if smis:
             if mol_name.lower() in smis:
@@ -126,7 +128,6 @@ def main():
     args = parser.parse_args()
     logging.info(args)
     convertpdb2mol(input_fnames=args.input, input_smi=args.smi, regex=args.regex, no_protonation=args.no_protonation, tautomerization=args.tautomerization)
-
 
 
 if __name__ == '__main__':
