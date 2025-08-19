@@ -8,11 +8,23 @@ from glob import glob
 from rdkit import Chem
 
 
-def get_ligbox_coords(pdb_fname):
-    mol = Chem.MolFromPDBFile(pdb_fname, removeHs=True, sanitize=False)
-    xyz = mol.GetConformer().GetPositions()
-    min_values = np.min(xyz, axis=0)
-    max_values = np.max(xyz, axis=0)
+def get_ligbox_coords(fname):
+    ext = os.path.splitext(fname)[-1].lower()
+    if ext == '.pdb':
+        mol = Chem.MolFromPDBFile(fname, removeHs=True, sanitize=False)
+        mols = [mol]
+    elif ext == '.sdf':
+        mols = list(Chem.SDMolSupplier(fname, removeHs=False, sanitize=False))
+    else:
+        raise ValueError(f"Unsupported file format: {ext}")
+
+    all_coords = []
+    for mol in mols:
+        xyz = mol.GetConformer().GetPositions()
+        all_coords.append(xyz)
+    all_coords = np.vstack(all_coords)
+    min_values = np.min(all_coords, axis=0)
+    max_values = np.max(all_coords, axis=0)
     return min_values, max_values
 
 
@@ -20,7 +32,7 @@ def main():
 
     parser = argparse.ArgumentParser(description='Get coordinates for a gridbox based on a position of a ligand(s).')
     parser.add_argument('-i', '--input', metavar='FILENAME(S) or DIRNAME', required=True, nargs='+',
-                        help='PDB file(s) with ligand(s) or a directory name which will be searched for all entries '
+                        help='SDF or PDB file(s) with ligand(s) or a directory name which will be searched for all entries '
                              'ending with _ligand.pdb. If multiple ligands are supplied a single gridbox will be '
                              'generated to fit all ligands.')
     parser.add_argument('-o', '--output', metavar='FILENAME', required=True,
