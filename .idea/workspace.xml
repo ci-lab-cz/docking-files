@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="51b4a329-c3b8-4f53-93b9-9ebfd59448d6" name="Changes" comment="remove big ligands">
+      <change afterPath="$PROJECT_DIR$/.idea/docking-files.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ESR1-P03372/grid2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GuzelMinibaeva&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GuzelMinibaeva/docking-files.git&quot;,
+    &quot;accountId&quot;: &quot;c294d32f-baa0-4087-b1be-6708bc1401c0&quot;
+  }
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2YUPgoT6p1qr1EQahlzwzE1Yc9T" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "get__gridbox__sdf",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="get_gridbox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="docking-files" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/get_gridbox.py" />
+      <option name="PARAMETERS" value="-i $USER_HOME$/new_proteins2/ESR1-P03372/8DV7/A/8DV7_ligand.pdb -o $USER_HOME$/new_proteins2/ESR1-P03372/grid2.txt -d 7" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.get_gridbox" />
+        <item itemvalue="Python.get_gridbox" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.159" />
+        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51b4a329-c3b8-4f53-93b9-9ebfd59448d6" name="Changes" comment="" />
+      <created>1700577300201</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700577300201</updated>
+      <workItem from="1700577301239" duration="1859000" />
+      <workItem from="1700579168141" duration="76000" />
+      <workItem from="1700579265740" duration="2766000" />
+      <workItem from="1701009773090" duration="2364000" />
+      <workItem from="1701034340659" duration="1407000" />
+      <workItem from="1701262524946" duration="4620000" />
+      <workItem from="1712575942782" duration="1254000" />
+      <workItem from="1712755690811" duration="5222000" />
+      <workItem from="1718034286033" duration="4000" />
+      <workItem from="1750082269452" duration="4212000" />
+      <workItem from="1750332706833" duration="112000" />
+      <workItem from="1750332824114" duration="2005000" />
+      <workItem from="1755619417453" duration="3071000" />
+    </task>
+    <task id="LOCAL-00001" summary="add proteins which similarly to CDK2">
+      <option name="closed" value="true" />
+      <created>1700578665451</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700578665451</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add proteins which similarly to CDK2">
+      <option name="closed" value="true" />
+      <created>1700579630470</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700579630470</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add Uniprot code to folder name and add mol files to ligands from complexes">
+      <option name="closed" value="true" />
+      <created>1700740118901</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700740118901</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add Uniprot code to folder name and add mol files to ligands from complexes">
+      <option name="closed" value="true" />
+      <created>1700740138083</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700740138083</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add crem-dock validation proteins">
+      <option name="closed" value="true" />
+      <created>1701009942624</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701009942624</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix grid files for crem-dock validation proteins">
+      <option name="closed" value="true" />
+      <created>1701034401496</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701034401496</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update protein files to fix clashes and plif">
+      <option name="closed" value="true" />
+      <created>1701274690337</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701274690337</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add proteins for validate crem-grow with small ligands from x-ray complexes">
+      <option name="closed" value="true" />
+      <created>1712836207368</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712836207368</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix grid boxes">
+      <option name="closed" value="true" />
+      <created>1712843751093</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712843751093</updated>
+    </task>
+    <task id="LOCAL-00010" summary="remove big ligands">
+      <option name="closed" value="true" />
+      <created>1712854551100</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712854551100</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add proteins which similarly to CDK2" />
+    <MESSAGE value="add Uniprot code to folder name and add mol files to ligands from complexes" />
+    <MESSAGE value="add crem-dock validation proteins" />
+    <MESSAGE value="fix grid files for crem-dock validation proteins" />
+    <MESSAGE value="update protein files to fix clashes and plif" />
+    <MESSAGE value="add proteins for validate crem-grow with small ligands from x-ray complexes" />
+    <MESSAGE value="fix grid boxes" />
+    <MESSAGE value="remove big ligands" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove big ligands" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/docking_files$get_gridbox.coverage" NAME="get_gridbox Coverage Results" MODIFIED="1701030396195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+  </component>
+</project>
