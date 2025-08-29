@@ -1,0 +1,3 @@
+structuire of the liagnd differs from the claimed one
+claimed CC1(C2CCC(CC2c3c(cc(cc3O1)C(C)(C)CCCCCCN=C=S)O)CO)C
+observed CC1(C2CCC(CC2c3c(cc(cc3O1)C(C)(C)CCCCCCN)O)CO)C
