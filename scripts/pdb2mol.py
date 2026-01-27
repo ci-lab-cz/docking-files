@@ -214,6 +214,10 @@ def convertpdb2mol(input_fnames, input_smi, regex, protonation_mode, tautomeriza
             mol_new.SetProp('_Name', mol_name)
         except Exception as e:
             logging.error(f'Fail to convert. Your PDB and smiles have different protonation. Problem: {e}. Mol: {ref_smi}\t{in_fname}')
+        try:
+            Chem.SanitizeMol(mol_new)
+        except Exception as e:
+            logging.warning(f'SanitizeMol failed for {mol_name}: {e}. Continuing with unsanitized molecule.')
 
         if mol_new:
             Chem.MolToMolFile(mol_new, in_fname.replace('.pdb', '.mol'))
