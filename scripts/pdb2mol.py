@@ -212,6 +212,13 @@ def convertpdb2mol(input_fnames, input_smi, regex, protonation_mode, tautomeriza
         try:
             mol_new = AllChem.AssignBondOrdersFromTemplate(reference, mol)
             mol_new.SetProp('_Name', mol_name)
+            #TODO add basic consistency checks, stereochemistry difference between smi and pdb
+            # if mol_new.GetNumAtoms() != mol.GetNumAtoms():
+            #     logging.error(f'Atom count mismatch after bond order assignment: ref atoms {reference.GetNumAtoms()}, '
+            #                   f'input atoms {mol.GetNumAtoms()}, new atoms {mol_new.GetNumAtoms()}. '
+            #                   f'Molecule {mol_name} will be skipped.')
+            #     mol_new = None
+            # else:
         except Exception as e:
             logging.error(f'Fail to convert. Your PDB and smiles have different protonation. Problem: {e}. Mol: {ref_smi}\t{in_fname}')
         try:
