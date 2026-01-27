@@ -88,7 +88,8 @@ def protonate_smi_file_with_sif(smi_fname, sif_path):
 def get_major_microspecies(smi_fname, h='7.4', tautomerize=False):
     print('Protonation is turned on')
     canon_smi_dict = {}
-    output = os.path.join(os.path.dirname(smi_fname), f'{os.path.basename(smi_fname).split(".")[0]}'                                         f'_protonation{"_majortautomer" if tautomerize else " "}'
+    output = os.path.join(os.path.dirname(smi_fname), f'{os.path.basename(smi_fname).split(".")[0]}'                                     
+                          f'_protonation{"_majortautomer" if tautomerize else ""}'
                                                        f'_pH{h}')
     if tautomerize:
         print('Tautomerization is turned on')
@@ -97,7 +98,11 @@ def get_major_microspecies(smi_fname, h='7.4', tautomerize=False):
         cmd_run = ['cxcalc', '-S', '--ignore-error', 'majormicrospecies', '-H', h, smi_fname]
     print(cmd_run)
     with open(output+'.sdf', 'w') as file:
-        subprocess.run(cmd_run, stdout=file, text=True)
+        res = subprocess.run(cmd_run, stdout=file, text=True, check=False)
+    if res.returncode != 0:
+        logging.error("cxcalc failed: %s", res.stderr.strip())
+        raise RuntimeError("cxcalc protonation failed")
+    
     for mol in Chem.SDMolSupplier(output+'.sdf', sanitize=False):
         if mol:
             smi = mol.GetPropsAsDict().get('MAJORMS', None)
