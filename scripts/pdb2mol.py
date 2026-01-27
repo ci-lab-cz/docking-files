@@ -13,7 +13,7 @@ from rdkit.Chem import AllChem
 
 
 def protonate_sif(smiles, sif_path):
-    # protonate molecules with uni-pka
+    """Protonate a list of SMILES using a molgpka SIF (apptainer via easydock)."""
     try:
         from easydock.containers import apptainer_exec
         from easydock.auxiliary import expand_path
@@ -86,6 +86,7 @@ def protonate_smi_file_with_sif(smi_fname, sif_path):
     return canon_smi_dict
 
 def get_major_microspecies(smi_fname, h='7.4', tautomerize=False):
+    """Protonate via chemaxon cxcalc majormicrospecies; returns name->canonical SMILES map."""
     print('Protonation is turned on')
     canon_smi_dict = {}
     output = os.path.join(os.path.dirname(smi_fname), f'{os.path.basename(smi_fname).split(".")[0]}'                                     
@@ -121,6 +122,7 @@ def get_major_microspecies(smi_fname, h='7.4', tautomerize=False):
 
 
 def get_smi_dict(input_smi):
+    """Read SMILES file (tab/space separated) into name->SMILES dict."""
     smis = dict()
     with open(input_smi) as f:
         for line in f:
@@ -134,7 +136,7 @@ def get_smi_dict(input_smi):
 
 
 def resolve_protonation(protonation_arg):
-    """Resolve user input to protonation mode and sif path."""
+    """Resolve protonation CLI input into mode ('chemaxon'|'sif'|'none') and optional path."""
     if protonation_arg:
         arg_lower = protonation_arg.lower()
         if arg_lower == 'chemaxon':
@@ -151,6 +153,7 @@ def resolve_protonation(protonation_arg):
 
 def convertpdb2mol(input_fnames, input_smi, regex, protonation_mode, tautomerization, protonation_path=None,
                    add_hs_reference=True):
+    """Convert PDB files to MOL, restoring bond orders using a reference SMILES and optional protonation."""
 
     smis = None
     if tautomerization and protonation_mode != 'chemaxon':
@@ -274,4 +277,5 @@ if __name__ == '__main__':
                         level=logging.INFO,
                         handlers=[logging.FileHandler(log_file),
                                   logging.StreamHandler()])
+    
     main()
