@@ -196,7 +196,8 @@ def convertpdb2mol(input_fnames, input_smi, regex, protonation_mode, tautomeriza
             if mol_name.lower() in smis:
                 smi = smis[mol_name.lower()]
             else:
-                logging.warning(f'Molecule {in_fname}: {mol_name}-smiles pair was not found. Molecule will be skipped')
+                logging.warning(f'Molecule {in_fname}: {mol_name}-smiles pair was not found. Molecule will be skipped. '
+                                f'Ensure SMILES names match PDB basenames (without extensions).')
                 continue
         else:
             smi = input_smi
@@ -239,11 +240,12 @@ def convertpdb2mol(input_fnames, input_smi, regex, protonation_mode, tautomeriza
 def main():
 
     parser = argparse.ArgumentParser(description='Conversion of input PDB file to MOL with RDKit. '
-                                                 'Save hydrogens and input charges from pdb.')
+                                                 'Save hydrogens from pdb.')
     parser.add_argument('-i', '--input', metavar='input.pdb', required=True, nargs='+',
                         help='input PDB file.')
     parser.add_argument('-s', '--smi', metavar='STRING or FILE', required=True,
-                        help='SMILES or File of SMILES of a molecule in PDB to restore bond orders.')
+                        help='SMILES or tab-separated SMILES file of a molecule in PDB to restore bond orders. '
+                             'SMILES name should match the PDB basename (without extension).')
     parser.add_argument('--regex', metavar='REGEX', required=False, default=None,
                         help='Use it if there are complex names of pdbqt files. '
                              'Use regex search to establish a relationship between reference smiles name and pdbqt '
@@ -267,7 +269,7 @@ def main():
 
 if __name__ == '__main__':
     out_time = f'{datetime.datetime.now().strftime("%d-%m-%Y-%H-%M-%S")}'
-    log_file = f'pdb2mol_savechargesfrompdb_{out_time}.log'
+    log_file = f'pdb2mol_{out_time}.log'
     logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s: %(message)s', datefmt='%Y-%m-%d %H:%M:%S',
                         level=logging.INFO,
                         handlers=[logging.FileHandler(log_file),
