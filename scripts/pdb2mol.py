@@ -202,14 +202,15 @@ def convertpdb2mol(input_fnames, input_smi, regex, protonation_mode, tautomeriza
             smi = input_smi
 
         mol = Chem.MolFromPDBFile(in_fname, sanitize=False, removeHs=False)
-        template = Chem.MolFromSmiles(smi)
-        ref_smi = Chem.MolToSmiles(template)
-        template = Chem.AddHs(template)
+        reference = Chem.MolFromSmiles(smi)
+        ref_smi = Chem.MolToSmiles(reference)
+        if add_hs_reference:
+            reference = Chem.AddHs(reference)
 
         mol_new = None
 
         try:
-            mol_new = AllChem.AssignBondOrdersFromTemplate(template, mol)
+            mol_new = AllChem.AssignBondOrdersFromTemplate(reference, mol)
             mol_new.SetProp('_Name', mol_name)
         except Exception as e:
             logging.error(f'Fail to convert. Your PDB and smiles have different protonation. Problem: {e}. Mol: {ref_smi}\t{in_fname}')
