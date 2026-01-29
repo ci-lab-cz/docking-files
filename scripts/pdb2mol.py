@@ -247,6 +247,7 @@ def convertpdb2mol(input_fnames, input_smi, regex, protonation_mode, tautomeriza
         if mol_new:
             try:
                 Chem.SanitizeMol(mol_new)
+                mol_new = Chem.AddHs(mol_new, addCoords=True)
             except Exception as e:
                 logging.warning(f'SanitizeMol failed for {mol_name}: {e}. Continuing with unsanitized molecule.')
             Chem.MolToMolFile(mol_new, in_fname.replace('.pdb', '.mol'))
