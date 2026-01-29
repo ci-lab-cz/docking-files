@@ -13,7 +13,7 @@ from rdkit.Chem import AllChem
 
 
 def protonate_sif(smiles, sif_path):
-    """Protonate a list of SMILES using a molgpka SIF (apptainer via easydock)."""
+    """Protonate a list of SMILES using a molgpka/unipka SIF (apptainer via easydock)."""
     try:
         from easydock.containers import apptainer_exec
         from easydock.auxiliary import expand_path
@@ -136,13 +136,11 @@ def get_smi_dict(input_smi):
 
 
 def resolve_protonation(protonation_arg):
-    """Resolve protonation CLI input into mode ('chemaxon'|'sif'|'none') and optional path."""
+    """Resolve protonation CLI input into mode ('chemaxon'|'sif'| None) and optional path."""
     if protonation_arg:
         arg_lower = protonation_arg.lower()
         if arg_lower == 'chemaxon':
             return 'chemaxon', None
-        if arg_lower == 'none':
-            return 'none', None
         if protonation_arg.endswith('.sif') or os.path.isfile(protonation_arg):
             return 'sif', protonation_arg
         raise ValueError('Protonation must be "chemaxon", "none", or a path to an existing .sif file.')
@@ -200,21 +198,22 @@ def convertpdb2mol(input_fnames, input_smi, regex, protonation_mode, tautomeriza
                 smi = smis[mol_name.lower()]
             else:
                 logging.warning(f'Molecule {in_fname}: {mol_name}-smiles pair was not found. Molecule will be skipped. '
-                                f'Ensure SMILES names match PDB basenames (without extensions).')
+                                f'Ensure SMILES names match PDB basenames (without extensions).'
+                                f'You can try to run with --noaddHs_ref')
                 continue
         else:
             smi = input_smi
 
         mol = Chem.MolFromPDBFile(in_fname, sanitize=False, removeHs=False)
-        reference = Chem.MolFromSmiles(smi)
-        ref_smi = Chem.MolToSmiles(reference)
+        mol_reference = Chem.MolFromSmiles(smi)
+        ref_smi = Chem.MolToSmiles(mol_reference)
         if add_hs_reference:
-            reference = Chem.AddHs(reference)
+            mol_reference = Chem.AddHs(mol_reference)
 
         mol_new = None
 
         try:
-            mol_new = AllChem.AssignBondOrdersFromTemplate(reference, mol)
+            mol_new = AllChem.AssignBondOrdersFromTemplate(mol_reference, mol)
             mol_new.SetProp('_Name', mol_name)
             #TODO add basic consistency checks, stereochemistry difference between smi and pdb
             # if mol_new.GetNumAtoms() != mol.GetNumAtoms():
@@ -225,12 +224,11 @@ def convertpdb2mol(input_fnames, input_smi, regex, protonation_mode, tautomeriza
             # else:
         except Exception as e:
             logging.error(f'Fail to convert. Your PDB and smiles have different protonation. Problem: {e}. Mol: {ref_smi}\t{in_fname}')
-        try:
-            Chem.SanitizeMol(mol_new)
-        except Exception as e:
-            logging.warning(f'SanitizeMol failed for {mol_name}: {e}. Continuing with unsanitized molecule.')
-
         if mol_new:
+            try:
+                Chem.SanitizeMol(mol_new)
+            except Exception as e:
+                logging.warning(f'SanitizeMol failed for {mol_name}: {e}. Continuing with unsanitized molecule.')
             Chem.MolToMolFile(mol_new, in_fname.replace('.pdb', '.mol'))
         else:
             error_smi[mol_name] = ref_smi
@@ -259,23 +257,24 @@ def main():
                              'If omitted, no protonation is performed.')
     parser.add_argument('--tautomerization', action='store_true', default=False,
                         help='Enable tautomerization of molecules during protonation.')
-    parser.add_argument('--noaddHs_reference', action='store_true', default=False,
+    parser.add_argument('--noaddHs_ref', action='store_true', default=False,
                         help='Do not add hydrogens to the reference molecule before assigning bond orders.')
 
     args = parser.parse_args()
-    logging.info(args)
-    protonation_mode, sif_path = resolve_protonation(args.protonation)
-    convertpdb2mol(input_fnames=args.input, input_smi=args.smi, regex=args.regex,
-                   protonation_mode=protonation_mode, tautomerization=args.tautomerization,
-                   protonation_path=sif_path, add_hs_reference=not args.noaddHs_reference)
-
-
-if __name__ == '__main__':
-    out_time = f'{datetime.datetime.now().strftime("%d-%m-%Y-%H-%M-%S")}'
     log_file = f'pdb2mol_{out_time}.log'
     logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s: %(message)s', datefmt='%Y-%m-%d %H:%M:%S',
                         level=logging.INFO,
                         handlers=[logging.FileHandler(log_file),
                                   logging.StreamHandler()])
+    logging.info(args)
+    protonation_mode, sif_path = resolve_protonation(args.protonation)
+    convertpdb2mol(input_fnames=args.input, input_smi=args.smi, regex=args.regex,
+                   protonation_mode=protonation_mode, tautomerization=args.tautomerization,
+                   protonation_path=sif_path, add_hs_reference=not args.noaddHs_ref)
+
+
+if __name__ == '__main__':
+    out_time = f'{datetime.datetime.now().strftime("%d-%m-%Y-%H-%M-%S")}'
+   
     
     main()
