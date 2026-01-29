@@ -212,7 +212,17 @@ def convertpdb2mol(input_fnames, input_smi, regex, protonation_mode, tautomeriza
             smi = input_smi
 
         mol = Chem.MolFromPDBFile(in_fname, sanitize=False, removeHs=False)
+        if mol is None:
+            logging.error(f'Failed to read PDB file for {mol_name}: {in_fname}. Molecule will be skipped.')
+            error_smi[mol_name] = smi
+            continue
+
         mol_reference = Chem.MolFromSmiles(smi)
+        if mol_reference is None:
+            logging.error(f'Reference SMILES for {mol_name} could not be parsed: {smi}. Molecule will be skipped.')
+            error_smi[mol_name] = smi
+            continue
+
         ref_smi = Chem.MolToSmiles(mol_reference)
         if add_hs_reference:
             mol_reference = Chem.AddHs(mol_reference)
