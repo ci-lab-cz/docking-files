@@ -245,8 +245,8 @@ def main():
     parser.add_argument('-i', '--input', metavar='input.pdb', required=True, nargs='+',
                         help='input PDB file.')
     parser.add_argument('-s', '--smi', metavar='STRING or FILE', required=True,
-                        help='SMILES or tab-separated SMILES file of a molecule in PDB to restore bond orders. '
-                             'SMILES name should match the PDB basename (without extension).')
+                        help='SMILES or tab-separated SMILES file (requires 2 columns: smi, smi-name) of a molecule(s) in PDB to restore bond orders. '
+                             'SMILES name should match the PDB basenames (without extension).')
     parser.add_argument('--regex', metavar='REGEX', required=False, default=None,
                         help='Use it if there are complex names of pdbqt files. '
                              'Use regex search to establish a relationship between reference smiles name and pdbqt '
