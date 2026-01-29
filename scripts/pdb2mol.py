@@ -83,6 +83,13 @@ def protonate_smi_file_with_sif(smi_fname, sif_path):
             except Exception:
                 logging.error(f'ERROR: {name}, Reference smiles obtained after protonation '
                               f'could not be read by RDKit. The molecule was skipped.\n')
+    # save protonated smiles for traceability
+    sif_basename = os.path.splitext(os.path.basename(sif_path))[0]
+    output = os.path.join(os.path.dirname(smi_fname),
+                          f'{os.path.basename(smi_fname).split(".")[0]}'
+                          f'_protonation_{sif_basename}_pH74.smi')
+    with open(output, 'w') as file:
+        file.write('\n'.join([f'{smi}\t{name}' for name, smi in canon_smi_dict.items()]))
     return canon_smi_dict
 
 def get_major_microspecies(smi_fname, h='7.4', tautomerize=False):
@@ -223,7 +230,10 @@ def convertpdb2mol(input_fnames, input_smi, regex, protonation_mode, tautomeriza
             #     mol_new = None
             # else:
         except Exception as e:
-            logging.error(f'Fail to convert. Your PDB and smiles have different protonation. Problem: {e}. Mol: {ref_smi}\t{in_fname}')
+            logging.error(f'Fail to convert. Your PDB and smiles have different protonation. Problem: {e}. '
+                          f'File {in_fname}: \n'
+                          f'Input pdb molecule: {Chem.MolToSmiles(mol)} \n'
+                          f'Reference smi: {ref_smi}')
         if mol_new:
             try:
                 Chem.SanitizeMol(mol_new)
