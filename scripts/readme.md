@@ -54,3 +54,28 @@ __Run__:
 ```
 qsub ~/docking/run-vina.pbs -v path=$(pwd)
 ```
+
+## pdb2mol.py
+__Dependency__  
+* RDKit (required)
+* ChemAxon `cxcalc` (for `--protonation chemaxon` mode)
+* Easydock with apptainer support + molgpka/unipka `.sif` image (for `--protonation /path/to/image.sif`)   
+https://github.com/ci-lab-cz/easydock
+- unipka SIF image can be obtained from https://zenodo.org/records/17854824.
+- molgpka SIF image will be available on zenodo soon   
+
+__Input:__ one or more *.pdb files and a reference SMILES string or *.smi file (names in the .smi must match PDB basenames)  
+__Output:__ *.mol files with restored bond orders (hydrogens and coordinates are preserved); skipped molecules are listed in `mol2pdb_error.smi`
+
+__Run examples__: 
+```
+# Protonate reference via ChemAxon (you will require ChemAxon licence) and convert PDB to MOL
+python scripts/pdb2mol.py -i ligand.pdb -s ligands.smi --protonation chemaxon
+
+# Use molgpka/unipka SIF protonation; download .sif from Zenodo
+python scripts/pdb2mol.py -i ligand.pdb -s ligands.smi --protonation /path/to/unipka.sif
+
+# Do not externally protonate reference and convert PDB to MOL with original protonation state   
+python scripts/pdb2mol.py -i ligand.pdb -s ligands.smi
+
+```
