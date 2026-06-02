@@ -1,0 +1,6 @@
+size_x = 24
+size_y = 22
+size_z = 22
+center_x = -18
+center_y = -26
+center_z = 2
