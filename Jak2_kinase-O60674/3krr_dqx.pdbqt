@@ -1,0 +1,56 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_2  and  C48_28 
+REMARK    2  A    between atoms: C7_5  and  C10_7 
+REMARK    3  A    between atoms: C13_10  and  C24_17 
+REMARK    4  A    between atoms: N27_19  and  C31_22 
+REMARK    5  A    between atoms: C48_28  and  N51_29 
+ROOT
+HETATM    1  C10 DQX A   1      13.018  12.131   2.440  1.00 15.48     0.019 A 
+HETATM    2  C11 DQX A   1      13.267  10.745   2.463  1.00 17.77     0.099 A 
+HETATM    3  N12 DQX A   1      14.342  10.219   3.129  1.00 14.42    -0.242 NA
+HETATM    4  C13 DQX A   1      14.555   8.878   3.139  1.00 16.70     0.103 A 
+HETATM    5  C14 DQX A   1      13.667   8.044   2.452  1.00 16.81     0.118 A 
+HETATM    6  N16 DQX A   1      12.614   8.549   1.781  1.00 18.92    -0.241 NA
+HETATM    7  C17 DQX A   1      12.388   9.882   1.777  1.00 19.63     0.099 A 
+HETATM    8  C18 DQX A   1      11.277  10.383   1.078  1.00 16.22     0.021 A 
+HETATM    9  C20 DQX A   1      11.040  11.762   1.053  1.00 16.47     0.002 A 
+HETATM   10  C22 DQX A   1      11.902  12.634   1.740  1.00 11.45     0.002 A 
+ENDROOT
+BRANCH   1  11
+HETATM   11  C7  DQX A   1      13.913  13.121   3.103  1.00 15.00     0.006 A 
+HETATM   12  C5  DQX A   1      14.313  14.214   2.322  1.00 16.13     0.030 A 
+HETATM   13  C4  DQX A   1      15.163  15.195   2.840  1.00 20.46     0.140 A 
+HETATM   14  C3  DQX A   1      15.617  15.090   4.166  1.00 19.71     0.055 A 
+HETATM   15  F47 DQX A   1      15.521  16.217   2.050  1.00 18.81    -0.204 F 
+HETATM   16  C2  DQX A   1      15.224  13.982   4.943  1.00 20.82     0.140 A 
+HETATM   17  C8  DQX A   1      14.376  12.999   4.418  1.00 15.46     0.030 A 
+HETATM   18  F1  DQX A   1      15.624  13.838   6.208  1.00 22.79    -0.204 F 
+BRANCH  14  19
+HETATM   19  C48 DQX A   1      16.527  16.184   4.754  1.00 20.25     0.129 C 
+BRANCH  19  20
+HETATM   20  N51 DQX A   1      15.689  17.274   5.375  1.00 24.07    -0.361 N 
+HETATM   21  C52 DQX A   1      14.995  16.869   6.639  1.00 22.40     0.130 C 
+HETATM   22  C55 DQX A   1      14.147  18.009   7.263  1.00 27.40     0.166 C 
+HETATM   23  O58 DQX A   1      13.291  18.597   6.263  1.00 26.30    -0.350 OA
+HETATM   24  C59 DQX A   1      14.057  19.195   5.200  1.00 25.21     0.166 C 
+HETATM   25  C62 DQX A   1      14.838  18.084   4.445  1.00 22.22     0.130 C 
+ENDBRANCH  19  20
+ENDBRANCH  14  19
+ENDBRANCH   1  11
+BRANCH   4  26
+HETATM   26  C24 DQX A   1      15.741   8.327   3.910  1.00 15.92     0.059 A 
+HETATM   27  C25 DQX A   1      16.119   7.042   4.157  1.00 18.01     0.098 A 
+HETATM   28  N27 DQX A   1      17.216   7.098   4.871  1.00 18.37    -0.251 N 
+HETATM   29  N28 DQX A   1      17.549   8.388   5.107  1.00 18.72    -0.168 NA
+HETATM   30  C29 DQX A   1      16.723   9.188   4.569  1.00 18.29     0.123 A 
+BRANCH  28  31
+HETATM   31  C31 DQX A   1      18.040   6.036   5.436  1.00 23.01     0.110 C 
+HETATM   32  C33 DQX A   1      17.312   5.392   6.655  1.00 23.05     0.063 C 
+HETATM   33  C36 DQX A   1      18.147   4.250   7.288  1.00 27.20     0.292 C 
+HETATM   34  N39 DQX A   1      18.518   3.299   6.219  1.00 30.30     0.339 N 
+HETATM   35  C41 DQX A   1      19.380   3.883   5.153  1.00 26.52     0.292 C 
+HETATM   36  C44 DQX A   1      18.579   5.000   4.412  1.00 29.21     0.063 C 
+ENDBRANCH  28  31
+ENDBRANCH   4  26
+TORSDOF 5
